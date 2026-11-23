@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-23T19:01:52.370142+00:00",
+  "generated_at_utc": "2026-11-23T20:57:53.610490+00:00",
   "source": "Utah 2026 statewide CVR, relational tables (ballots/votes/contests/candidates), 29/29 counties",
   "ballots": 1058810,
   "key_contests": 94,
@@ -624,6 +624,1540 @@
     "mixed": 0.061786,
     "third-party-involved": 0.138713,
     "no-partisan-vote": 0.004683
+   }
+  }
+ },
+ "by_hd": {
+  "HD1": {
+   "counts": {
+    "straight-R": 8630,
+    "straight-D": 2321,
+    "mixed": 1023,
+    "third-party-involved": 2950,
+    "no-partisan-vote": 110
+   },
+   "total": 15034,
+   "shares": {
+    "straight-R": 0.574032,
+    "straight-D": 0.154383,
+    "mixed": 0.068046,
+    "third-party-involved": 0.196222,
+    "no-partisan-vote": 0.007317
+   }
+  },
+  "HD2": {
+   "counts": {
+    "straight-R": 7597,
+    "straight-D": 4872,
+    "mixed": 817,
+    "third-party-involved": 938,
+    "no-partisan-vote": 56
+   },
+   "total": 14280,
+   "shares": {
+    "straight-R": 0.532003,
+    "straight-D": 0.341176,
+    "mixed": 0.057213,
+    "third-party-involved": 0.065686,
+    "no-partisan-vote": 0.003922
+   }
+  },
+  "HD3": {
+   "counts": {
+    "straight-R": 4053,
+    "straight-D": 161,
+    "mixed": 321,
+    "third-party-involved": 6860,
+    "no-partisan-vote": 39
+   },
+   "total": 11434,
+   "shares": {
+    "straight-R": 0.354469,
+    "straight-D": 0.014081,
+    "mixed": 0.028074,
+    "third-party-involved": 0.599965,
+    "no-partisan-vote": 0.003411
+   }
+  },
+  "HD4": {
+   "counts": {
+    "straight-R": 7954,
+    "straight-D": 5198,
+    "mixed": 1744,
+    "third-party-involved": 4638,
+    "no-partisan-vote": 124
+   },
+   "total": 19658,
+   "shares": {
+    "straight-R": 0.404619,
+    "straight-D": 0.264422,
+    "mixed": 0.088717,
+    "third-party-involved": 0.235934,
+    "no-partisan-vote": 0.006308
+   }
+  },
+  "HD5": {
+   "counts": {
+    "straight-R": 8868,
+    "straight-D": 4474,
+    "mixed": 1081,
+    "third-party-involved": 1505,
+    "no-partisan-vote": 77
+   },
+   "total": 16005,
+   "shares": {
+    "straight-R": 0.554077,
+    "straight-D": 0.279538,
+    "mixed": 0.067541,
+    "third-party-involved": 0.094033,
+    "no-partisan-vote": 0.004811
+   }
+  },
+  "HD6": {
+   "counts": {
+    "straight-R": 8303,
+    "straight-D": 393,
+    "mixed": 805,
+    "third-party-involved": 5360,
+    "no-partisan-vote": 88
+   },
+   "total": 14949,
+   "shares": {
+    "straight-R": 0.555422,
+    "straight-D": 0.026289,
+    "mixed": 0.05385,
+    "third-party-involved": 0.358552,
+    "no-partisan-vote": 0.005887
+   }
+  },
+  "HD7": {
+   "counts": {
+    "straight-R": 5612,
+    "straight-D": 5464,
+    "mixed": 626,
+    "third-party-involved": 946,
+    "no-partisan-vote": 53
+   },
+   "total": 12701,
+   "shares": {
+    "straight-R": 0.441855,
+    "straight-D": 0.430202,
+    "mixed": 0.049287,
+    "third-party-involved": 0.074482,
+    "no-partisan-vote": 0.004173
+   }
+  },
+  "HD8": {
+   "counts": {
+    "straight-R": 6035,
+    "straight-D": 7090,
+    "mixed": 590,
+    "third-party-involved": 1293,
+    "no-partisan-vote": 37
+   },
+   "total": 15045,
+   "shares": {
+    "straight-R": 0.40113,
+    "straight-D": 0.471253,
+    "mixed": 0.039216,
+    "third-party-involved": 0.085942,
+    "no-partisan-vote": 0.002459
+   }
+  },
+  "HD9": {
+   "counts": {
+    "straight-R": 4537,
+    "straight-D": 5616,
+    "mixed": 495,
+    "third-party-involved": 835,
+    "no-partisan-vote": 38
+   },
+   "total": 11521,
+   "shares": {
+    "straight-R": 0.393803,
+    "straight-D": 0.487458,
+    "mixed": 0.042965,
+    "third-party-involved": 0.072476,
+    "no-partisan-vote": 0.003298
+   }
+  },
+  "HD10": {
+   "counts": {
+    "straight-R": 3637,
+    "straight-D": 6310,
+    "mixed": 927,
+    "third-party-involved": 943,
+    "no-partisan-vote": 25
+   },
+   "total": 11842,
+   "shares": {
+    "straight-R": 0.307127,
+    "straight-D": 0.532849,
+    "mixed": 0.078281,
+    "third-party-involved": 0.079632,
+    "no-partisan-vote": 0.002111
+   }
+  },
+  "HD11": {
+   "counts": {
+    "straight-R": 4781,
+    "straight-D": 5177,
+    "mixed": 838,
+    "third-party-involved": 1157,
+    "no-partisan-vote": 35
+   },
+   "total": 11988,
+   "shares": {
+    "straight-R": 0.398815,
+    "straight-D": 0.431849,
+    "mixed": 0.069903,
+    "third-party-involved": 0.096513,
+    "no-partisan-vote": 0.00292
+   }
+  },
+  "HD12": {
+   "counts": {
+    "straight-R": 6813,
+    "straight-D": 4681,
+    "mixed": 710,
+    "third-party-involved": 1125,
+    "no-partisan-vote": 72
+   },
+   "total": 13401,
+   "shares": {
+    "straight-R": 0.508395,
+    "straight-D": 0.349302,
+    "mixed": 0.052981,
+    "third-party-involved": 0.083949,
+    "no-partisan-vote": 0.005373
+   }
+  },
+  "HD13": {
+   "counts": {
+    "straight-R": 5604,
+    "straight-D": 4351,
+    "mixed": 583,
+    "third-party-involved": 1765,
+    "no-partisan-vote": 93
+   },
+   "total": 12396,
+   "shares": {
+    "straight-R": 0.452081,
+    "straight-D": 0.351,
+    "mixed": 0.047031,
+    "third-party-involved": 0.142385,
+    "no-partisan-vote": 0.007502
+   }
+  },
+  "HD14": {
+   "counts": {
+    "straight-R": 5247,
+    "straight-D": 4101,
+    "mixed": 777,
+    "third-party-involved": 1558,
+    "no-partisan-vote": 91
+   },
+   "total": 11774,
+   "shares": {
+    "straight-R": 0.445643,
+    "straight-D": 0.34831,
+    "mixed": 0.065993,
+    "third-party-involved": 0.132325,
+    "no-partisan-vote": 0.007729
+   }
+  },
+  "HD15": {
+   "counts": {
+    "straight-R": 7147,
+    "straight-D": 4349,
+    "mixed": 1159,
+    "third-party-involved": 1870,
+    "no-partisan-vote": 88
+   },
+   "total": 14613,
+   "shares": {
+    "straight-R": 0.489085,
+    "straight-D": 0.297612,
+    "mixed": 0.079313,
+    "third-party-involved": 0.127968,
+    "no-partisan-vote": 0.006022
+   }
+  },
+  "HD16": {
+   "counts": {
+    "straight-R": 5479,
+    "straight-D": 5109,
+    "mixed": 1188,
+    "third-party-involved": 1428,
+    "no-partisan-vote": 71
+   },
+   "total": 13275,
+   "shares": {
+    "straight-R": 0.412731,
+    "straight-D": 0.384859,
+    "mixed": 0.089492,
+    "third-party-involved": 0.107571,
+    "no-partisan-vote": 0.005348
+   }
+  },
+  "HD17": {
+   "counts": {
+    "straight-R": 7223,
+    "straight-D": 4842,
+    "mixed": 1605,
+    "third-party-involved": 1542,
+    "no-partisan-vote": 87
+   },
+   "total": 15299,
+   "shares": {
+    "straight-R": 0.472122,
+    "straight-D": 0.316491,
+    "mixed": 0.104909,
+    "third-party-involved": 0.100791,
+    "no-partisan-vote": 0.005687
+   }
+  },
+  "HD18": {
+   "counts": {
+    "straight-R": 7454,
+    "straight-D": 5330,
+    "mixed": 1700,
+    "third-party-involved": 1371,
+    "no-partisan-vote": 109
+   },
+   "total": 15964,
+   "shares": {
+    "straight-R": 0.466926,
+    "straight-D": 0.333876,
+    "mixed": 0.10649,
+    "third-party-involved": 0.085881,
+    "no-partisan-vote": 0.006828
+   }
+  },
+  "HD19": {
+   "counts": {
+    "straight-R": 7361,
+    "straight-D": 3590,
+    "mixed": 3671,
+    "third-party-involved": 1021,
+    "no-partisan-vote": 184
+   },
+   "total": 15827,
+   "shares": {
+    "straight-R": 0.465091,
+    "straight-D": 0.226828,
+    "mixed": 0.231945,
+    "third-party-involved": 0.06451,
+    "no-partisan-vote": 0.011626
+   }
+  },
+  "HD20": {
+   "counts": {
+    "straight-R": 5268,
+    "straight-D": 6246,
+    "mixed": 855,
+    "third-party-involved": 914,
+    "no-partisan-vote": 98
+   },
+   "total": 13381,
+   "shares": {
+    "straight-R": 0.393693,
+    "straight-D": 0.466781,
+    "mixed": 0.063897,
+    "third-party-involved": 0.068306,
+    "no-partisan-vote": 0.007324
+   }
+  },
+  "HD21": {
+   "counts": {
+    "straight-R": 1102,
+    "straight-D": 8350,
+    "mixed": 514,
+    "third-party-involved": 543,
+    "no-partisan-vote": 47
+   },
+   "total": 10556,
+   "shares": {
+    "straight-R": 0.104396,
+    "straight-D": 0.791019,
+    "mixed": 0.048693,
+    "third-party-involved": 0.05144,
+    "no-partisan-vote": 0.004452
+   }
+  },
+  "HD22": {
+   "counts": {
+    "straight-R": 1751,
+    "straight-D": 13461,
+    "mixed": 496,
+    "third-party-involved": 785,
+    "no-partisan-vote": 49
+   },
+   "total": 16542,
+   "shares": {
+    "straight-R": 0.105852,
+    "straight-D": 0.813747,
+    "mixed": 0.029984,
+    "third-party-involved": 0.047455,
+    "no-partisan-vote": 0.002962
+   }
+  },
+  "HD23": {
+   "counts": {
+    "straight-R": 2510,
+    "straight-D": 16821,
+    "mixed": 1116,
+    "third-party-involved": 1100,
+    "no-partisan-vote": 76
+   },
+   "total": 21623,
+   "shares": {
+    "straight-R": 0.11608,
+    "straight-D": 0.777922,
+    "mixed": 0.051612,
+    "third-party-involved": 0.050872,
+    "no-partisan-vote": 0.003515
+   }
+  },
+  "HD24": {
+   "counts": {
+    "straight-R": 1224,
+    "straight-D": 13895,
+    "mixed": 427,
+    "third-party-involved": 991,
+    "no-partisan-vote": 42
+   },
+   "total": 16579,
+   "shares": {
+    "straight-R": 0.073828,
+    "straight-D": 0.838108,
+    "mixed": 0.025755,
+    "third-party-involved": 0.059774,
+    "no-partisan-vote": 0.002533
+   }
+  },
+  "HD25": {
+   "counts": {
+    "straight-R": 1416,
+    "straight-D": 5442,
+    "mixed": 244,
+    "third-party-involved": 449,
+    "no-partisan-vote": 19
+   },
+   "total": 7570,
+   "shares": {
+    "straight-R": 0.187054,
+    "straight-D": 0.71889,
+    "mixed": 0.032232,
+    "third-party-involved": 0.059313,
+    "no-partisan-vote": 0.00251
+   }
+  },
+  "HD26": {
+   "counts": {
+    "straight-R": 3247,
+    "straight-D": 5997,
+    "mixed": 588,
+    "third-party-involved": 1023,
+    "no-partisan-vote": 29
+   },
+   "total": 10884,
+   "shares": {
+    "straight-R": 0.298328,
+    "straight-D": 0.550992,
+    "mixed": 0.054024,
+    "third-party-involved": 0.093991,
+    "no-partisan-vote": 0.002664
+   }
+  },
+  "HD27": {
+   "counts": {
+    "straight-R": 3421,
+    "straight-D": 2406,
+    "mixed": 691,
+    "third-party-involved": 4970,
+    "no-partisan-vote": 26
+   },
+   "total": 11514,
+   "shares": {
+    "straight-R": 0.297117,
+    "straight-D": 0.208963,
+    "mixed": 0.060014,
+    "third-party-involved": 0.431648,
+    "no-partisan-vote": 0.002258
+   }
+  },
+  "HD28": {
+   "counts": {
+    "straight-R": 5283,
+    "straight-D": 618,
+    "mixed": 354,
+    "third-party-involved": 5446,
+    "no-partisan-vote": 88
+   },
+   "total": 11789,
+   "shares": {
+    "straight-R": 0.44813,
+    "straight-D": 0.052422,
+    "mixed": 0.030028,
+    "third-party-involved": 0.461956,
+    "no-partisan-vote": 0.007465
+   }
+  },
+  "HD29": {
+   "counts": {
+    "straight-R": 8205,
+    "straight-D": 2397,
+    "mixed": 491,
+    "third-party-involved": 2689,
+    "no-partisan-vote": 124
+   },
+   "total": 13906,
+   "shares": {
+    "straight-R": 0.590033,
+    "straight-D": 0.172372,
+    "mixed": 0.035308,
+    "third-party-involved": 0.19337,
+    "no-partisan-vote": 0.008917
+   }
+  },
+  "HD30": {
+   "counts": {
+    "straight-R": 3180,
+    "straight-D": 6453,
+    "mixed": 978,
+    "third-party-involved": 459,
+    "no-partisan-vote": 23
+   },
+   "total": 11093,
+   "shares": {
+    "straight-R": 0.286667,
+    "straight-D": 0.581718,
+    "mixed": 0.088164,
+    "third-party-involved": 0.041377,
+    "no-partisan-vote": 0.002073
+   }
+  },
+  "HD31": {
+   "counts": {
+    "straight-R": 2367,
+    "straight-D": 6277,
+    "mixed": 707,
+    "third-party-involved": 465,
+    "no-partisan-vote": 27
+   },
+   "total": 9843,
+   "shares": {
+    "straight-R": 0.240475,
+    "straight-D": 0.637712,
+    "mixed": 0.071828,
+    "third-party-involved": 0.047242,
+    "no-partisan-vote": 0.002743
+   }
+  },
+  "HD32": {
+   "counts": {
+    "straight-R": 1802,
+    "straight-D": 10835,
+    "mixed": 619,
+    "third-party-involved": 949,
+    "no-partisan-vote": 42
+   },
+   "total": 14247,
+   "shares": {
+    "straight-R": 0.126483,
+    "straight-D": 0.760511,
+    "mixed": 0.043448,
+    "third-party-involved": 0.066611,
+    "no-partisan-vote": 0.002948
+   }
+  },
+  "HD33": {
+   "counts": {
+    "straight-R": 3577,
+    "straight-D": 14970,
+    "mixed": 2011,
+    "third-party-involved": 500,
+    "no-partisan-vote": 46
+   },
+   "total": 21104,
+   "shares": {
+    "straight-R": 0.169494,
+    "straight-D": 0.709344,
+    "mixed": 0.09529,
+    "third-party-involved": 0.023692,
+    "no-partisan-vote": 0.00218
+   }
+  },
+  "HD34": {
+   "counts": {
+    "straight-R": 3011,
+    "straight-D": 11783,
+    "mixed": 1554,
+    "third-party-involved": 616,
+    "no-partisan-vote": 58
+   },
+   "total": 17022,
+   "shares": {
+    "straight-R": 0.176889,
+    "straight-D": 0.692222,
+    "mixed": 0.091294,
+    "third-party-involved": 0.036188,
+    "no-partisan-vote": 0.003407
+   }
+  },
+  "HD35": {
+   "counts": {
+    "straight-R": 3524,
+    "straight-D": 8683,
+    "mixed": 1132,
+    "third-party-involved": 818,
+    "no-partisan-vote": 43
+   },
+   "total": 14200,
+   "shares": {
+    "straight-R": 0.248169,
+    "straight-D": 0.611479,
+    "mixed": 0.079718,
+    "third-party-involved": 0.057606,
+    "no-partisan-vote": 0.003028
+   }
+  },
+  "HD36": {
+   "counts": {
+    "straight-R": 5495,
+    "straight-D": 7124,
+    "mixed": 1248,
+    "third-party-involved": 586,
+    "no-partisan-vote": 47
+   },
+   "total": 14500,
+   "shares": {
+    "straight-R": 0.378966,
+    "straight-D": 0.49131,
+    "mixed": 0.086069,
+    "third-party-involved": 0.040414,
+    "no-partisan-vote": 0.003241
+   }
+  },
+  "HD37": {
+   "counts": {
+    "straight-R": 2686,
+    "straight-D": 5731,
+    "mixed": 694,
+    "third-party-involved": 537,
+    "no-partisan-vote": 24
+   },
+   "total": 9672,
+   "shares": {
+    "straight-R": 0.277709,
+    "straight-D": 0.592535,
+    "mixed": 0.071754,
+    "third-party-involved": 0.055521,
+    "no-partisan-vote": 0.002481
+   }
+  },
+  "HD38": {
+   "counts": {
+    "straight-R": 4232,
+    "straight-D": 515,
+    "mixed": 648,
+    "third-party-involved": 6386,
+    "no-partisan-vote": 40
+   },
+   "total": 11821,
+   "shares": {
+    "straight-R": 0.358007,
+    "straight-D": 0.043567,
+    "mixed": 0.054818,
+    "third-party-involved": 0.540225,
+    "no-partisan-vote": 0.003384
+   }
+  },
+  "HD39": {
+   "counts": {
+    "straight-R": 4517,
+    "straight-D": 6630,
+    "mixed": 824,
+    "third-party-involved": 538,
+    "no-partisan-vote": 39
+   },
+   "total": 12548,
+   "shares": {
+    "straight-R": 0.359978,
+    "straight-D": 0.528371,
+    "mixed": 0.065668,
+    "third-party-involved": 0.042875,
+    "no-partisan-vote": 0.003108
+   }
+  },
+  "HD40": {
+   "counts": {
+    "straight-R": 2355,
+    "straight-D": 8269,
+    "mixed": 1116,
+    "third-party-involved": 632,
+    "no-partisan-vote": 53
+   },
+   "total": 12425,
+   "shares": {
+    "straight-R": 0.189537,
+    "straight-D": 0.665513,
+    "mixed": 0.089819,
+    "third-party-involved": 0.050865,
+    "no-partisan-vote": 0.004266
+   }
+  },
+  "HD41": {
+   "counts": {
+    "straight-R": 5329,
+    "straight-D": 12646,
+    "mixed": 1468,
+    "third-party-involved": 529,
+    "no-partisan-vote": 58
+   },
+   "total": 20030,
+   "shares": {
+    "straight-R": 0.266051,
+    "straight-D": 0.631353,
+    "mixed": 0.07329,
+    "third-party-involved": 0.02641,
+    "no-partisan-vote": 0.002896
+   }
+  },
+  "HD42": {
+   "counts": {
+    "straight-R": 7804,
+    "straight-D": 9714,
+    "mixed": 1726,
+    "third-party-involved": 1156,
+    "no-partisan-vote": 63
+   },
+   "total": 20463,
+   "shares": {
+    "straight-R": 0.381371,
+    "straight-D": 0.47471,
+    "mixed": 0.084347,
+    "third-party-involved": 0.056492,
+    "no-partisan-vote": 0.003079
+   }
+  },
+  "HD43": {
+   "counts": {
+    "straight-R": 5534,
+    "straight-D": 7965,
+    "mixed": 1267,
+    "third-party-involved": 949,
+    "no-partisan-vote": 61
+   },
+   "total": 15776,
+   "shares": {
+    "straight-R": 0.350786,
+    "straight-D": 0.504881,
+    "mixed": 0.080312,
+    "third-party-involved": 0.060155,
+    "no-partisan-vote": 0.003867
+   }
+  },
+  "HD44": {
+   "counts": {
+    "straight-R": 7022,
+    "straight-D": 7474,
+    "mixed": 896,
+    "third-party-involved": 1206,
+    "no-partisan-vote": 68
+   },
+   "total": 16666,
+   "shares": {
+    "straight-R": 0.421337,
+    "straight-D": 0.448458,
+    "mixed": 0.053762,
+    "third-party-involved": 0.072363,
+    "no-partisan-vote": 0.00408
+   }
+  },
+  "HD45": {
+   "counts": {
+    "straight-R": 7263,
+    "straight-D": 6413,
+    "mixed": 1108,
+    "third-party-involved": 890,
+    "no-partisan-vote": 102
+   },
+   "total": 15776,
+   "shares": {
+    "straight-R": 0.460383,
+    "straight-D": 0.406504,
+    "mixed": 0.070233,
+    "third-party-involved": 0.056415,
+    "no-partisan-vote": 0.006466
+   }
+  },
+  "HD46": {
+   "counts": {
+    "straight-R": 6932,
+    "straight-D": 5944,
+    "mixed": 1178,
+    "third-party-involved": 883,
+    "no-partisan-vote": 68
+   },
+   "total": 15005,
+   "shares": {
+    "straight-R": 0.461979,
+    "straight-D": 0.396135,
+    "mixed": 0.078507,
+    "third-party-involved": 0.058847,
+    "no-partisan-vote": 0.004532
+   }
+  },
+  "HD47": {
+   "counts": {
+    "straight-R": 7834,
+    "straight-D": 3652,
+    "mixed": 2333,
+    "third-party-involved": 948,
+    "no-partisan-vote": 68
+   },
+   "total": 14835,
+   "shares": {
+    "straight-R": 0.528075,
+    "straight-D": 0.246175,
+    "mixed": 0.157263,
+    "third-party-involved": 0.063903,
+    "no-partisan-vote": 0.004584
+   }
+  },
+  "HD48": {
+   "counts": {
+    "straight-R": 6645,
+    "straight-D": 6580,
+    "mixed": 771,
+    "third-party-involved": 1039,
+    "no-partisan-vote": 60
+   },
+   "total": 15095,
+   "shares": {
+    "straight-R": 0.440212,
+    "straight-D": 0.435906,
+    "mixed": 0.051077,
+    "third-party-involved": 0.068831,
+    "no-partisan-vote": 0.003975
+   }
+  },
+  "HD49": {
+   "counts": {
+    "straight-R": 6846,
+    "straight-D": 4176,
+    "mixed": 962,
+    "third-party-involved": 2089,
+    "no-partisan-vote": 55
+   },
+   "total": 14128,
+   "shares": {
+    "straight-R": 0.48457,
+    "straight-D": 0.295583,
+    "mixed": 0.068092,
+    "third-party-involved": 0.147862,
+    "no-partisan-vote": 0.003893
+   }
+  },
+  "HD50": {
+   "counts": {
+    "straight-R": 6554,
+    "straight-D": 1631,
+    "mixed": 421,
+    "third-party-involved": 5034,
+    "no-partisan-vote": 52
+   },
+   "total": 13692,
+   "shares": {
+    "straight-R": 0.478674,
+    "straight-D": 0.119121,
+    "mixed": 0.030748,
+    "third-party-involved": 0.36766,
+    "no-partisan-vote": 0.003798
+   }
+  },
+  "HD51": {
+   "counts": {
+    "straight-R": 7642,
+    "straight-D": 5607,
+    "mixed": 838,
+    "third-party-involved": 1443,
+    "no-partisan-vote": 57
+   },
+   "total": 15587,
+   "shares": {
+    "straight-R": 0.49028,
+    "straight-D": 0.359723,
+    "mixed": 0.053763,
+    "third-party-involved": 0.092577,
+    "no-partisan-vote": 0.003657
+   }
+  },
+  "HD52": {
+   "counts": {
+    "straight-R": 6668,
+    "straight-D": 4863,
+    "mixed": 544,
+    "third-party-involved": 1443,
+    "no-partisan-vote": 57
+   },
+   "total": 13575,
+   "shares": {
+    "straight-R": 0.491197,
+    "straight-D": 0.358232,
+    "mixed": 0.040074,
+    "third-party-involved": 0.106298,
+    "no-partisan-vote": 0.004199
+   }
+  },
+  "HD53": {
+   "counts": {
+    "straight-R": 6705,
+    "straight-D": 2079,
+    "mixed": 333,
+    "third-party-involved": 5121,
+    "no-partisan-vote": 44
+   },
+   "total": 14282,
+   "shares": {
+    "straight-R": 0.469472,
+    "straight-D": 0.145568,
+    "mixed": 0.023316,
+    "third-party-involved": 0.358563,
+    "no-partisan-vote": 0.003081
+   }
+  },
+  "HD54": {
+   "counts": {
+    "straight-R": 9540,
+    "straight-D": 3667,
+    "mixed": 966,
+    "third-party-involved": 2077,
+    "no-partisan-vote": 55
+   },
+   "total": 16305,
+   "shares": {
+    "straight-R": 0.585097,
+    "straight-D": 0.2249,
+    "mixed": 0.059246,
+    "third-party-involved": 0.127384,
+    "no-partisan-vote": 0.003373
+   }
+  },
+  "HD55": {
+   "counts": {
+    "straight-R": 7195,
+    "straight-D": 3562,
+    "mixed": 832,
+    "third-party-involved": 2275,
+    "no-partisan-vote": 47
+   },
+   "total": 13911,
+   "shares": {
+    "straight-R": 0.517217,
+    "straight-D": 0.256056,
+    "mixed": 0.059809,
+    "third-party-involved": 0.16354,
+    "no-partisan-vote": 0.003379
+   }
+  },
+  "HD56": {
+   "counts": {
+    "straight-R": 4606,
+    "straight-D": 3967,
+    "mixed": 881,
+    "third-party-involved": 980,
+    "no-partisan-vote": 50
+   },
+   "total": 10484,
+   "shares": {
+    "straight-R": 0.439336,
+    "straight-D": 0.378386,
+    "mixed": 0.084033,
+    "third-party-involved": 0.093476,
+    "no-partisan-vote": 0.004769
+   }
+  },
+  "HD57": {
+   "counts": {
+    "straight-R": 5525,
+    "straight-D": 3278,
+    "mixed": 1846,
+    "third-party-involved": 947,
+    "no-partisan-vote": 73
+   },
+   "total": 11669,
+   "shares": {
+    "straight-R": 0.473477,
+    "straight-D": 0.280915,
+    "mixed": 0.158197,
+    "third-party-involved": 0.081155,
+    "no-partisan-vote": 0.006256
+   }
+  },
+  "HD58": {
+   "counts": {
+    "straight-R": 8621,
+    "straight-D": 5233,
+    "mixed": 1098,
+    "third-party-involved": 1271,
+    "no-partisan-vote": 101
+   },
+   "total": 16324,
+   "shares": {
+    "straight-R": 0.528118,
+    "straight-D": 0.320571,
+    "mixed": 0.067263,
+    "third-party-involved": 0.077861,
+    "no-partisan-vote": 0.006187
+   }
+  },
+  "HD59": {
+   "counts": {
+    "straight-R": 7513,
+    "straight-D": 1355,
+    "mixed": 1729,
+    "third-party-involved": 8691,
+    "no-partisan-vote": 63
+   },
+   "total": 19351,
+   "shares": {
+    "straight-R": 0.388249,
+    "straight-D": 0.070022,
+    "mixed": 0.089349,
+    "third-party-involved": 0.449124,
+    "no-partisan-vote": 0.003256
+   }
+  },
+  "HD60": {
+   "counts": {
+    "straight-R": 1760,
+    "straight-D": 1113,
+    "mixed": 1310,
+    "third-party-involved": 361,
+    "no-partisan-vote": 29
+   },
+   "total": 4573,
+   "shares": {
+    "straight-R": 0.384868,
+    "straight-D": 0.243385,
+    "mixed": 0.286464,
+    "third-party-involved": 0.078942,
+    "no-partisan-vote": 0.006342
+   }
+  },
+  "HD61": {
+   "counts": {
+    "straight-R": 4299,
+    "straight-D": 4135,
+    "mixed": 749,
+    "third-party-involved": 1008,
+    "no-partisan-vote": 32
+   },
+   "total": 10223,
+   "shares": {
+    "straight-R": 0.420522,
+    "straight-D": 0.40448,
+    "mixed": 0.073266,
+    "third-party-involved": 0.098601,
+    "no-partisan-vote": 0.00313
+   }
+  },
+  "HD62": {
+   "counts": {
+    "straight-R": 3813,
+    "straight-D": 4796,
+    "mixed": 618,
+    "third-party-involved": 773,
+    "no-partisan-vote": 39
+   },
+   "total": 10039,
+   "shares": {
+    "straight-R": 0.379819,
+    "straight-D": 0.477737,
+    "mixed": 0.06156,
+    "third-party-involved": 0.077,
+    "no-partisan-vote": 0.003885
+   }
+  },
+  "HD63": {
+   "counts": {
+    "straight-R": 8979,
+    "straight-D": 3721,
+    "mixed": 912,
+    "third-party-involved": 2386,
+    "no-partisan-vote": 100
+   },
+   "total": 16098,
+   "shares": {
+    "straight-R": 0.557771,
+    "straight-D": 0.231147,
+    "mixed": 0.056653,
+    "third-party-involved": 0.148217,
+    "no-partisan-vote": 0.006212
+   }
+  },
+  "HD64": {
+   "counts": {
+    "straight-R": 7574,
+    "straight-D": 253,
+    "mixed": 474,
+    "third-party-involved": 5507,
+    "no-partisan-vote": 107
+   },
+   "total": 13915,
+   "shares": {
+    "straight-R": 0.544305,
+    "straight-D": 0.018182,
+    "mixed": 0.034064,
+    "third-party-involved": 0.39576,
+    "no-partisan-vote": 0.00769
+   }
+  },
+  "HD65": {
+   "counts": {
+    "straight-R": 8368,
+    "straight-D": 1635,
+    "mixed": 2070,
+    "third-party-involved": 1113,
+    "no-partisan-vote": 82
+   },
+   "total": 13268,
+   "shares": {
+    "straight-R": 0.63069,
+    "straight-D": 0.123229,
+    "mixed": 0.156014,
+    "third-party-involved": 0.083886,
+    "no-partisan-vote": 0.00618
+   }
+  },
+  "HD66": {
+   "counts": {
+    "straight-R": 8800,
+    "straight-D": 2002,
+    "mixed": 341,
+    "third-party-involved": 1717,
+    "no-partisan-vote": 118
+   },
+   "total": 12978,
+   "shares": {
+    "straight-R": 0.678071,
+    "straight-D": 0.154261,
+    "mixed": 0.026275,
+    "third-party-involved": 0.132301,
+    "no-partisan-vote": 0.009092
+   }
+  },
+  "HD67": {
+   "counts": {
+    "straight-R": 8051,
+    "straight-D": 2299,
+    "mixed": 606,
+    "third-party-involved": 1582,
+    "no-partisan-vote": 112
+   },
+   "total": 12650,
+   "shares": {
+    "straight-R": 0.636443,
+    "straight-D": 0.181739,
+    "mixed": 0.047905,
+    "third-party-involved": 0.125059,
+    "no-partisan-vote": 0.008854
+   }
+  },
+  "HD68": {
+   "counts": {
+    "straight-R": 7744,
+    "straight-D": 128,
+    "mixed": 375,
+    "third-party-involved": 3344,
+    "no-partisan-vote": 75
+   },
+   "total": 11666,
+   "shares": {
+    "straight-R": 0.663809,
+    "straight-D": 0.010972,
+    "mixed": 0.032145,
+    "third-party-involved": 0.286645,
+    "no-partisan-vote": 0.006429
+   }
+  },
+  "HD69": {
+   "counts": {
+    "straight-R": 8646,
+    "straight-D": 6628,
+    "mixed": 710,
+    "third-party-involved": 1128,
+    "no-partisan-vote": 134
+   },
+   "total": 17246,
+   "shares": {
+    "straight-R": 0.501334,
+    "straight-D": 0.384321,
+    "mixed": 0.041169,
+    "third-party-involved": 0.065406,
+    "no-partisan-vote": 0.00777
+   }
+  },
+  "HD70": {
+   "counts": {
+    "straight-R": 10474,
+    "straight-D": 1727,
+    "mixed": 568,
+    "third-party-involved": 1121,
+    "no-partisan-vote": 89
+   },
+   "total": 13979,
+   "shares": {
+    "straight-R": 0.749267,
+    "straight-D": 0.123542,
+    "mixed": 0.040632,
+    "third-party-involved": 0.080192,
+    "no-partisan-vote": 0.006367
+   }
+  },
+  "HD71": {
+   "counts": {
+    "straight-R": 8016,
+    "straight-D": 3090,
+    "mixed": 1082,
+    "third-party-involved": 1104,
+    "no-partisan-vote": 52
+   },
+   "total": 13344,
+   "shares": {
+    "straight-R": 0.600719,
+    "straight-D": 0.231565,
+    "mixed": 0.081085,
+    "third-party-involved": 0.082734,
+    "no-partisan-vote": 0.003897
+   }
+  },
+  "HD72": {
+   "counts": {
+    "straight-R": 11534,
+    "straight-D": 4417,
+    "mixed": 583,
+    "third-party-involved": 2105,
+    "no-partisan-vote": 65
+   },
+   "total": 18704,
+   "shares": {
+    "straight-R": 0.61666,
+    "straight-D": 0.236153,
+    "mixed": 0.03117,
+    "third-party-involved": 0.112543,
+    "no-partisan-vote": 0.003475
+   }
+  },
+  "HD73": {
+   "counts": {
+    "straight-R": 8632,
+    "straight-D": 3749,
+    "mixed": 757,
+    "third-party-involved": 1288,
+    "no-partisan-vote": 59
+   },
+   "total": 14485,
+   "shares": {
+    "straight-R": 0.595927,
+    "straight-D": 0.258819,
+    "mixed": 0.052261,
+    "third-party-involved": 0.08892,
+    "no-partisan-vote": 0.004073
+   }
+  },
+  "HD74": {
+   "counts": {
+    "straight-R": 10639,
+    "straight-D": 5667,
+    "mixed": 687,
+    "third-party-involved": 1375,
+    "no-partisan-vote": 50
+   },
+   "total": 18418,
+   "shares": {
+    "straight-R": 0.577641,
+    "straight-D": 0.307688,
+    "mixed": 0.0373,
+    "third-party-involved": 0.074655,
+    "no-partisan-vote": 0.002715
+   }
+  },
+  "HD75": {
+   "counts": {
+    "straight-R": 8193,
+    "straight-D": 3689,
+    "mixed": 512,
+    "third-party-involved": 1205,
+    "no-partisan-vote": 47
+   },
+   "total": 13646,
+   "shares": {
+    "straight-R": 0.600396,
+    "straight-D": 0.270336,
+    "mixed": 0.03752,
+    "third-party-involved": 0.088304,
+    "no-partisan-vote": 0.003444
+   }
+  }
+ },
+ "by_sd": {
+  "SD1": {
+   "counts": {
+    "straight-R": 20990,
+    "straight-D": 6513,
+    "mixed": 2457,
+    "third-party-involved": 7775,
+    "no-partisan-vote": 249
+   },
+   "total": 37984,
+   "shares": {
+    "straight-R": 0.552601,
+    "straight-D": 0.171467,
+    "mixed": 0.064685,
+    "third-party-involved": 0.204691,
+    "no-partisan-vote": 0.006555
+   }
+  },
+  "SD5": {
+   "counts": {
+    "straight-R": 11298,
+    "straight-D": 15301,
+    "mixed": 2286,
+    "third-party-involved": 2792,
+    "no-partisan-vote": 91
+   },
+   "total": 31768,
+   "shares": {
+    "straight-R": 0.355641,
+    "straight-D": 0.481648,
+    "mixed": 0.071959,
+    "third-party-involved": 0.087887,
+    "no-partisan-vote": 0.002865
+   }
+  },
+  "SD6": {
+   "counts": {
+    "straight-R": 15512,
+    "straight-D": 10685,
+    "mixed": 2353,
+    "third-party-involved": 4388,
+    "no-partisan-vote": 206
+   },
+   "total": 33144,
+   "shares": {
+    "straight-R": 0.468018,
+    "straight-D": 0.322381,
+    "mixed": 0.070993,
+    "third-party-involved": 0.132392,
+    "no-partisan-vote": 0.006215
+   }
+  },
+  "SD7": {
+   "counts": {
+    "straight-R": 18683,
+    "straight-D": 13694,
+    "mixed": 4242,
+    "third-party-involved": 4029,
+    "no-partisan-vote": 246
+   },
+   "total": 40894,
+   "shares": {
+    "straight-R": 0.456864,
+    "straight-D": 0.334866,
+    "mixed": 0.103732,
+    "third-party-involved": 0.098523,
+    "no-partisan-vote": 0.006016
+   }
+  },
+  "SD9": {
+   "counts": {
+    "straight-R": 4326,
+    "straight-D": 32884,
+    "mixed": 1400,
+    "third-party-involved": 2353,
+    "no-partisan-vote": 118
+   },
+   "total": 41081,
+   "shares": {
+    "straight-R": 0.105304,
+    "straight-D": 0.800467,
+    "mixed": 0.034079,
+    "third-party-involved": 0.057277,
+    "no-partisan-vote": 0.002872
+   }
+  },
+  "SD11": {
+   "counts": {
+    "straight-R": 14510,
+    "straight-D": 1061,
+    "mixed": 1187,
+    "third-party-involved": 17234,
+    "no-partisan-vote": 144
+   },
+   "total": 34136,
+   "shares": {
+    "straight-R": 0.425064,
+    "straight-D": 0.031082,
+    "mixed": 0.034773,
+    "third-party-involved": 0.504863,
+    "no-partisan-vote": 0.004218
+   }
+  },
+  "SD12": {
+   "counts": {
+    "straight-R": 6894,
+    "straight-D": 15463,
+    "mixed": 2224,
+    "third-party-involved": 1217,
+    "no-partisan-vote": 65
+   },
+   "total": 25863,
+   "shares": {
+    "straight-R": 0.266558,
+    "straight-D": 0.597881,
+    "mixed": 0.085992,
+    "third-party-involved": 0.047056,
+    "no-partisan-vote": 0.002513
+   }
+  },
+  "SD13": {
+   "counts": {
+    "straight-R": 5449,
+    "straight-D": 24879,
+    "mixed": 1667,
+    "third-party-involved": 2423,
+    "no-partisan-vote": 106
+   },
+   "total": 34524,
+   "shares": {
+    "straight-R": 0.157832,
+    "straight-D": 0.720629,
+    "mixed": 0.048285,
+    "third-party-involved": 0.070183,
+    "no-partisan-vote": 0.00307
+   }
+  },
+  "SD14": {
+   "counts": {
+    "straight-R": 9043,
+    "straight-D": 35713,
+    "mixed": 5002,
+    "third-party-involved": 1491,
+    "no-partisan-vote": 137
+   },
+   "total": 51386,
+   "shares": {
+    "straight-R": 0.175982,
+    "straight-D": 0.694995,
+    "mixed": 0.097342,
+    "third-party-involved": 0.029016,
+    "no-partisan-vote": 0.002666
+   }
+  },
+  "SD18": {
+   "counts": {
+    "straight-R": 17472,
+    "straight-D": 11339,
+    "mixed": 3978,
+    "third-party-involved": 2489,
+    "no-partisan-vote": 153
+   },
+   "total": 35431,
+   "shares": {
+    "straight-R": 0.493127,
+    "straight-D": 0.32003,
+    "mixed": 0.112275,
+    "third-party-involved": 0.070249,
+    "no-partisan-vote": 0.004318
+   }
+  },
+  "SD19": {
+   "counts": {
+    "straight-R": 19554,
+    "straight-D": 20350,
+    "mixed": 4039,
+    "third-party-involved": 2605,
+    "no-partisan-vote": 164
+   },
+   "total": 46712,
+   "shares": {
+    "straight-R": 0.418608,
+    "straight-D": 0.435648,
+    "mixed": 0.086466,
+    "third-party-involved": 0.055767,
+    "no-partisan-vote": 0.003511
+   }
+  },
+  "SD20": {
+   "counts": {
+    "straight-R": 18814,
+    "straight-D": 1524,
+    "mixed": 2871,
+    "third-party-involved": 16807,
+    "no-partisan-vote": 177
+   },
+   "total": 40193,
+   "shares": {
+    "straight-R": 0.468091,
+    "straight-D": 0.037917,
+    "mixed": 0.07143,
+    "third-party-involved": 0.418157,
+    "no-partisan-vote": 0.004404
+   }
+  },
+  "SD21": {
+   "counts": {
+    "straight-R": 20572,
+    "straight-D": 8454,
+    "mixed": 1855,
+    "third-party-involved": 8671,
+    "no-partisan-vote": 140
+   },
+   "total": 39692,
+   "shares": {
+    "straight-R": 0.518291,
+    "straight-D": 0.21299,
+    "mixed": 0.046735,
+    "third-party-involved": 0.218457,
+    "no-partisan-vote": 0.003527
+   }
+  },
+  "SD23": {
+   "counts": {
+    "straight-R": 13152,
+    "straight-D": 9670,
+    "mixed": 3137,
+    "third-party-involved": 2434,
+    "no-partisan-vote": 120
+   },
+   "total": 28513,
+   "shares": {
+    "straight-R": 0.461263,
+    "straight-D": 0.339144,
+    "mixed": 0.11002,
+    "third-party-involved": 0.085365,
+    "no-partisan-vote": 0.004209
+   }
+  },
+  "SD28": {
+   "counts": {
+    "straight-R": 23443,
+    "straight-D": 8041,
+    "mixed": 2338,
+    "third-party-involved": 3683,
+    "no-partisan-vote": 176
+   },
+   "total": 37681,
+   "shares": {
+    "straight-R": 0.622144,
+    "straight-D": 0.213397,
+    "mixed": 0.062047,
+    "third-party-involved": 0.097742,
+    "no-partisan-vote": 0.004671
    }
   }
  }
