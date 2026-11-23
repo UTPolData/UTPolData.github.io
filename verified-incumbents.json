@@ -1,0 +1,262 @@
+{
+ "contests": {
+  "CD1": {
+   "incumbent": null,
+   "note": "New district created by the 2026 court-ordered map, centered on Salt Lake City and northern Salt Lake County; no sitting member.",
+   "status": "no_incumbent"
+  },
+  "CD2": {
+   "incumbent": {
+    "name": "Blake Moore",
+    "party": "R"
+   },
+   "note": "Previously represented this northern-Utah seat as CD1; renumbered to CD2 under the 2026 court-ordered map.",
+   "status": "reelected"
+  },
+  "CD3": {
+   "incumbent": {
+    "name": "Celeste Maloy",
+    "party": "R"
+   },
+   "note": "Previously represented this seat as CD2; renumbered to CD3 under the 2026 court-ordered map.",
+   "status": "reelected"
+  },
+  "CD4": {
+   "incumbent": {
+    "name": "Mike Kennedy",
+    "party": "R"
+   },
+   "note": "Previously represented this seat as CD3; renumbered to CD4 under the 2026 court-ordered map. First elected to Congress in 2024.",
+   "status": "reelected"
+  },
+  "HD1": {
+   "incumbent": {
+    "name": "Thomas Peterson",
+    "party": "R"
+   },
+   "note": "Won in 2024 (82.4%).",
+   "status": "reelected"
+  },
+  "HD13": {
+   "incumbent": {
+    "name": "Karen Peterson",
+    "party": "R"
+   },
+   "note": "Won in 2024 (71.9%).",
+   "status": "not_candidate"
+  },
+  "HD16": {
+   "incumbent": null,
+   "note": "Seat vacant at the election: Rep. Trevor Lee (R) resigned Sept 28, 2026 after being charged with four felonies; he had already lost the June primary to Bob Stevenson, who won the general election. Not in any Vote Splits table (no third-party candidate).",
+   "status": "vacant"
+  },
+  "HD23": {
+   "incumbent": {
+    "name": "Hoang Nguyen",
+    "party": "D"
+   },
+   "note": "Won an open seat in 2024 (71.7%) after Rep. Brian King retired to run for governor.",
+   "status": "reelected"
+  },
+  "HD28": {
+   "incumbent": {
+    "name": "Nicholeen Peck",
+    "party": "R"
+   },
+   "note": "Won an open seat in 2024 (68.9%) after Rep. Tim Jimenez withdrew.",
+   "status": "reelected"
+  },
+  "HD29": {
+   "incumbent": {
+    "name": "Bridger Bolinder",
+    "party": "R"
+   },
+   "note": "Won in 2024 (75.4%).",
+   "status": "not_candidate"
+  },
+  "HD3": {
+   "incumbent": {
+    "name": "Jason Thompson",
+    "party": "R"
+   },
+   "note": "Beat Patrick Belmont 54-46 in 2024.",
+   "status": "defeated"
+  },
+  "HD38": {
+   "incumbent": {
+    "name": "Cheryl Acton",
+    "party": "R"
+   },
+   "note": "Won in 2024 (61.4%).",
+   "status": "not_candidate"
+  },
+  "HD53": {
+   "incumbent": {
+    "name": "Kay Christofferson",
+    "party": "R"
+   },
+   "note": "Won in 2024 (80.0%).",
+   "status": "reelected"
+  },
+  "HD57": {
+   "incumbent": {
+    "name": "Nelson Abbott",
+    "party": "R"
+   },
+   "note": "Won in 2024 (72.5%); re-elected unopposed in 2026. Missing from ut-incumbents.json - a gap in the file, not an open seat. Not in any Vote Splits table (uncontested, no third-party candidate).",
+   "status": "reelected"
+  },
+  "HD6": {
+   "incumbent": {
+    "name": "Rob Bishop",
+    "party": "R"
+   },
+   "note": "Appointed in May 2026 after Rep. Matthew Gwynn resigned; former U.S. Representative for CD1 (2003-2021) and Utah House Speaker (1992-94).",
+   "status": "appointed_reelected"
+  },
+  "HD61": {
+   "incumbent": {
+    "name": "Lisa Shepherd",
+    "party": "R"
+   },
+   "note": "Won an open seat in 2024 after Rep. Marsha Judkins retired.",
+   "status": "reelected"
+  },
+  "HD63": {
+   "incumbent": {
+    "name": "Stephen Whyte",
+    "party": "R"
+   },
+   "note": null,
+   "status": "reelected"
+  },
+  "HD64": {
+   "incumbent": {
+    "name": "Jackie Larson",
+    "party": "R"
+   },
+   "note": "Appointed by Gov. Cox in May 2026 after Rep. Jefferson Burton withdrew and resigned.",
+   "status": "appointed_reelected"
+  },
+  "HD66": {
+   "incumbent": {
+    "name": "Troy Shelley",
+    "party": "R"
+   },
+   "note": "Won an open seat in 2024 after Rep. Steven Lund retired.",
+   "status": "reelected"
+  },
+  "HD68": {
+   "incumbent": {
+    "name": "Scott Chew",
+    "party": "R"
+   },
+   "note": null,
+   "status": "reelected"
+  },
+  "HD70": {
+   "incumbent": {
+    "name": "Carl Albrecht",
+    "party": "R"
+   },
+   "note": "Won in 2024 (93.3%).",
+   "status": "reelected"
+  },
+  "HD72": {
+   "incumbent": {
+    "name": "Joseph Elison",
+    "party": "R"
+   },
+   "note": "Ran unopposed in 2024.",
+   "status": "reelected"
+  },
+  "HD8": {
+   "incumbent": {
+    "name": "Jason Kyle",
+    "party": "R"
+   },
+   "note": "Ran unopposed in 2024.",
+   "status": "defeated"
+  },
+  "SD1": {
+   "incumbent": {
+    "name": "Scott Sandall",
+    "party": "R"
+   },
+   "note": "Ran unopposed in 2022.",
+   "status": "reelected"
+  },
+  "SD11": {
+   "incumbent": {
+    "name": "Emily Buss",
+    "party": "Forward"
+   },
+   "note": "Appointed by Gov. Cox after Sen. Daniel Thatcher (Forward) resigned in December 2025; Utah's only third-party legislator.",
+   "status": "appointed_defeated"
+  },
+  "SD13": {
+   "incumbent": {
+    "name": "Nate Blouin",
+    "party": "D"
+   },
+   "note": "Won in 2022 (71.8%).",
+   "status": "not_candidate"
+  },
+  "SD20": {
+   "incumbent": {
+    "name": "Ronald Winterton",
+    "party": "R"
+   },
+   "note": "Won in 2022 (68.7%).",
+   "status": "reelected"
+  },
+  "SD21": {
+   "incumbent": {
+    "name": "Brady Brammer",
+    "party": "R"
+   },
+   "note": "Appointed in January 2025 after Sen. Mike Kennedy resigned to join Congress; previously represented HD54.",
+   "status": "appointed_reelected"
+  },
+  "SD6": {
+   "incumbent": {
+    "name": "Jerry Stevenson",
+    "party": "R"
+   },
+   "note": "Ran unopposed in 2022.",
+   "status": "not_candidate"
+  },
+  "SD7": {
+   "incumbent": {
+    "name": "Stuart Adams",
+    "party": "R"
+   },
+   "note": "Won in 2022 (66.5%).",
+   "status": "not_candidate"
+  },
+  "SD9": {
+   "incumbent": {
+    "name": "Jen Plumb",
+    "party": "D"
+   },
+   "note": "Won in 2022 (99.4%).",
+   "status": "reelected"
+  }
+ },
+ "meta": {
+  "file_gaps": "ut-incumbents.json has only 73 of 75 House seats. HD16 was VACANT at the election (Rep. Trevor Lee resigned Sept 28, 2026 after felony fraud charges; he had already lost the June primary to Bob Stevenson, who won the general). HD57 is a GAP in the file, not an open seat (Rep. Nelson Abbott won in 2024 and was re-elected unopposed in 2026). Neither seat has a third-party candidate, so neither appears in any Vote Splits table.",
+  "generated": "2026-11-23",
+  "notes_rule": "Every note is verified from the sources above. Where a fact could not be verified, the note is null rather than guessed.",
+  "provenance": "Source file ut-incumbents.json (~/workspace/utah-ballot-tracker/) was created Nov 4, 2026, the day AFTER Election Day, so it was NOT trusted as-is. Every entry below was cross-checked against (a) the July 2026 national legislator roster snapshot (~/workspace/roster-enrichment/roster-full-20261117-fresh.json, 'Active' rows), (b) the 2024 Utah House and 2022 Utah Senate election winners (Wikipedia, PollCheck, Ballotpedia, Vote Smart), and (c) news reporting on mid-term appointments and resignations. Result: ZERO corrections needed to the file's values for the 29 contests. The two entries that looked suspicious are both appointed incumbents, verified: Emily Buss (SD11) was appointed after Sen. Daniel Thatcher resigned Dec 2025, and Rob Bishop (HD6) was appointed May 2026 after Rep. Matthew Gwynn resigned. CD incumbency is NOT in ut-incumbents.json; it was verified from the 2024 U.S. House roster plus the 2026 court-ordered map (Judge Gibson, Nov 10, 2025). CD incumbency follows Josh's rule (Nov 23, 2026): an incumbent is whoever ran for re-election in essentially the same district, even if renumbered by the redraw (Moore CD1->CD2, Maloy CD2->CD3, Kennedy CD3->CD4); CD1 has no incumbent because it is a new SLC-based district carved from pieces of the old districts and no sitting member ran for re-election in essentially that district. HD/SD district numbers were not redrawn in 2026, so their incumbency is by district number as usual.",
+  "purpose": "Pre-election incumbents for the Vote Splits page race-detail panels (utpoldata.github.io/vote-splits.html). Covers the 29 contests with a third-party candidate, plus HD16 and HD57 (documented for the record; neither appears in any page table).",
+  "status_values": {
+   "appointed_defeated": "appointed incumbent who lost re-election in 2026",
+   "appointed_reelected": "appointed incumbent who won the full term in 2026",
+   "defeated": "incumbent ran and lost the 2026 general election",
+   "no_incumbent": "no sitting member (new district)",
+   "not_candidate": "incumbent was not a candidate in the 2026 general election (no reason claimed \u2014 retirement, primary loss, or other \u2014 unless stated in the note)",
+   "reelected": "incumbent ran and won the 2026 general election",
+   "vacant": "seat vacant at the election"
+  }
+ }
+}
