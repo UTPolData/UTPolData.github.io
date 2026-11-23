@@ -1,0 +1,375 @@
+{
+ "meta": {
+  "generated_at_utc": "2026-11-23T19:01:52.370142+00:00",
+  "source": "Utah 2026 statewide CVR, relational tables (ballots/votes/contests/candidates), 29/29 counties",
+  "ballots": 1058810,
+  "key_contests": 94,
+  "top_of_ticket": "U.S. House (CD) -- no U.S. Senate race and no statewide executive race on the 2026 Utah ballot",
+  "builder": "build_splitting_stats.py",
+  "definitions": {
+   "matrix": "counts of ballots by party choice in office A (rows) x office B (columns), among ballots with BOTH contests on their ballot. Undervote/WriteIn are rows/columns, not dropped.",
+   "row_pct": "cell / row total (direction A -> B)",
+   "col_pct": "cell / column total (direction B -> A)",
+   "splitting_rate": "among ballots casting an R/D/Other vote in BOTH contests, the share voting for different parties in the two contests"
+  }
+ },
+ "pairs": {
+  "CD x HD": {
+   "office_a": "CD",
+   "office_b": "HD",
+   "ballots_with_both": 1058011,
+   "ballots_voting_partisan_in_both": 1004401,
+   "splitting_rate": 0.14928,
+   "splitting_n": 149937,
+   "matrix": {
+    "R": {
+     "R": 443200,
+     "D": 20181,
+     "Other": 6713,
+     "Undervote": 14916,
+     "WriteIn": 133
+    },
+    "D": {
+     "R": 40469,
+     "D": 403856,
+     "Other": 24005,
+     "Undervote": 20822,
+     "WriteIn": 1516
+    },
+    "Other": {
+     "R": 35212,
+     "D": 23357,
+     "Other": 7408,
+     "Undervote": 4017,
+     "WriteIn": 241
+    },
+    "Undervote": {
+     "R": 4256,
+     "D": 2001,
+     "Other": 347,
+     "Undervote": 5349,
+     "WriteIn": 12
+    },
+    "WriteIn": {
+     "R": 0,
+     "D": 0,
+     "Other": 0,
+     "Undervote": 0,
+     "WriteIn": 0
+    }
+   },
+   "row_pct": {
+    "R": {
+     "R": 0.913545,
+     "D": 0.041598,
+     "Other": 0.013837,
+     "Undervote": 0.030746,
+     "WriteIn": 0.000274
+    },
+    "D": {
+     "R": 0.082477,
+     "D": 0.823074,
+     "Other": 0.048923,
+     "Undervote": 0.042436,
+     "WriteIn": 0.00309
+    },
+    "Other": {
+     "R": 0.501345,
+     "D": 0.332555,
+     "Other": 0.105474,
+     "Undervote": 0.057194,
+     "WriteIn": 0.003431
+    },
+    "Undervote": {
+     "R": 0.355704,
+     "D": 0.167238,
+     "Other": 0.029001,
+     "Undervote": 0.447054,
+     "WriteIn": 0.001003
+    },
+    "WriteIn": {
+     "R": 0.0,
+     "D": 0.0,
+     "Other": 0.0,
+     "Undervote": 0.0,
+     "WriteIn": 0.0
+    }
+   },
+   "col_pct": {
+    "R": {
+     "R": 0.847197,
+     "D": 0.044907,
+     "Other": 0.174486,
+     "Undervote": 0.330702,
+     "WriteIn": 0.069926
+    },
+    "D": {
+     "R": 0.077358,
+     "D": 0.898666,
+     "Other": 0.623944,
+     "Undervote": 0.461644,
+     "WriteIn": 0.797056
+    },
+    "Other": {
+     "R": 0.067309,
+     "D": 0.051974,
+     "Other": 0.192551,
+     "Undervote": 0.089061,
+     "WriteIn": 0.126709
+    },
+    "Undervote": {
+     "R": 0.008136,
+     "D": 0.004453,
+     "Other": 0.009019,
+     "Undervote": 0.118593,
+     "WriteIn": 0.006309
+    },
+    "WriteIn": {
+     "R": 0.0,
+     "D": 0.0,
+     "Other": 0.0,
+     "Undervote": 0.0,
+     "WriteIn": 0.0
+    }
+   }
+  },
+  "CD x SD": {
+   "office_a": "CD",
+   "office_b": "SD",
+   "ballots_with_both": 559002,
+   "ballots_voting_partisan_in_both": 532423,
+   "splitting_rate": 0.170537,
+   "splitting_n": 90798,
+   "matrix": {
+    "R": {
+     "R": 212959,
+     "D": 11288,
+     "Other": 8091,
+     "Undervote": 12725,
+     "WriteIn": 0
+    },
+    "D": {
+     "R": 14363,
+     "D": 220245,
+     "Other": 30248,
+     "Undervote": 6138,
+     "WriteIn": 0
+    },
+    "Other": {
+     "R": 15786,
+     "D": 11022,
+     "Other": 8421,
+     "Undervote": 1533,
+     "WriteIn": 0
+    },
+    "Undervote": {
+     "R": 1783,
+     "D": 1036,
+     "Other": 387,
+     "Undervote": 2977,
+     "WriteIn": 0
+    },
+    "WriteIn": {
+     "R": 0,
+     "D": 0,
+     "Other": 0,
+     "Undervote": 0,
+     "WriteIn": 0
+    }
+   },
+   "row_pct": {
+    "R": {
+     "R": 0.868997,
+     "D": 0.046062,
+     "Other": 0.033016,
+     "Undervote": 0.051925,
+     "WriteIn": 0.0
+    },
+    "D": {
+     "R": 0.053001,
+     "D": 0.81273,
+     "Other": 0.111619,
+     "Undervote": 0.02265,
+     "WriteIn": 0.0
+    },
+    "Other": {
+     "R": 0.429411,
+     "D": 0.29982,
+     "Other": 0.229068,
+     "Undervote": 0.041701,
+     "WriteIn": 0.0
+    },
+    "Undervote": {
+     "R": 0.288371,
+     "D": 0.167556,
+     "Other": 0.062591,
+     "Undervote": 0.481481,
+     "WriteIn": 0.0
+    },
+    "WriteIn": {
+     "R": 0.0,
+     "D": 0.0,
+     "Other": 0.0,
+     "Undervote": 0.0,
+     "WriteIn": 0.0
+    }
+   },
+   "col_pct": {
+    "R": {
+     "R": 0.869607,
+     "D": 0.04634,
+     "Other": 0.171612,
+     "Undervote": 0.544432,
+     "WriteIn": 0.0
+    },
+    "D": {
+     "R": 0.058651,
+     "D": 0.904159,
+     "Other": 0.641568,
+     "Undervote": 0.262611,
+     "WriteIn": 0.0
+    },
+    "Other": {
+     "R": 0.064461,
+     "D": 0.045248,
+     "Other": 0.178612,
+     "Undervote": 0.065588,
+     "WriteIn": 0.0
+    },
+    "Undervote": {
+     "R": 0.007281,
+     "D": 0.004253,
+     "Other": 0.008208,
+     "Undervote": 0.127369,
+     "WriteIn": 0.0
+    },
+    "WriteIn": {
+     "R": 0.0,
+     "D": 0.0,
+     "Other": 0.0,
+     "Undervote": 0.0,
+     "WriteIn": 0.0
+    }
+   }
+  },
+  "HD x SD": {
+   "office_a": "HD",
+   "office_b": "SD",
+   "ballots_with_both": 559002,
+   "ballots_voting_partisan_in_both": 519276,
+   "splitting_rate": 0.15221,
+   "splitting_n": 79039,
+   "matrix": {
+    "R": {
+     "R": 222256,
+     "D": 17540,
+     "Other": 11306,
+     "Undervote": 9687,
+     "WriteIn": 0
+    },
+    "D": {
+     "R": 14158,
+     "D": 212713,
+     "Other": 29534,
+     "Undervote": 5275,
+     "WriteIn": 0
+    },
+    "Other": {
+     "R": 3558,
+     "D": 2943,
+     "Other": 5268,
+     "Undervote": 298,
+     "WriteIn": 0
+    },
+    "Undervote": {
+     "R": 4841,
+     "D": 9235,
+     "Other": 1023,
+     "Undervote": 8096,
+     "WriteIn": 0
+    },
+    "WriteIn": {
+     "R": 78,
+     "D": 1160,
+     "Other": 16,
+     "Undervote": 17,
+     "WriteIn": 0
+    }
+   },
+   "row_pct": {
+    "R": {
+     "R": 0.852245,
+     "D": 0.067257,
+     "Other": 0.043353,
+     "Undervote": 0.037145,
+     "WriteIn": 0.0
+    },
+    "D": {
+     "R": 0.054104,
+     "D": 0.812875,
+     "Other": 0.112863,
+     "Undervote": 0.020158,
+     "WriteIn": 0.0
+    },
+    "Other": {
+     "R": 0.294854,
+     "D": 0.243888,
+     "Other": 0.436563,
+     "Undervote": 0.024695,
+     "WriteIn": 0.0
+    },
+    "Undervote": {
+     "R": 0.208709,
+     "D": 0.398146,
+     "Other": 0.044104,
+     "Undervote": 0.349041,
+     "WriteIn": 0.0
+    },
+    "WriteIn": {
+     "R": 0.061369,
+     "D": 0.912667,
+     "Other": 0.012589,
+     "Undervote": 0.013375,
+     "WriteIn": 0.0
+    }
+   },
+   "col_pct": {
+    "R": {
+     "R": 0.907571,
+     "D": 0.072006,
+     "Other": 0.239803,
+     "Undervote": 0.414453,
+     "WriteIn": 0.0
+    },
+    "D": {
+     "R": 0.057813,
+     "D": 0.873238,
+     "Other": 0.626424,
+     "Undervote": 0.225688,
+     "WriteIn": 0.0
+    },
+    "Other": {
+     "R": 0.014529,
+     "D": 0.012082,
+     "Other": 0.111736,
+     "Undervote": 0.01275,
+     "WriteIn": 0.0
+    },
+    "Undervote": {
+     "R": 0.019768,
+     "D": 0.037912,
+     "Other": 0.021698,
+     "Undervote": 0.346383,
+     "WriteIn": 0.0
+    },
+    "WriteIn": {
+     "R": 0.000319,
+     "D": 0.004762,
+     "Other": 0.000339,
+     "Undervote": 0.000727,
+     "WriteIn": 0.0
+    }
+   }
+  }
+ }
+}
