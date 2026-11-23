@@ -1,0 +1,4347 @@
+{
+ "meta": {
+  "generated_at_utc": "2026-11-23T19:01:52.370142+00:00",
+  "source": "Utah 2026 statewide CVR, relational tables (ballots/votes/contests/candidates), 29/29 counties",
+  "ballots": 1058810,
+  "key_contests": 94,
+  "top_of_ticket": "U.S. House (CD) -- no U.S. Senate race and no statewide executive race on the 2026 Utah ballot",
+  "builder": "build_splitting_stats.py",
+  "definitions": {
+   "margin": "winner votes minus runner-up votes (null for uncontested races, which have no runner-up)",
+   "third_party_votes": "votes for Other-bucket candidates (Libertarian, United Utah, Independent American, Constitution, Forward, Green, Unaffiliated, Independent)",
+   "writein_votes": "literal write-in votes (no candidate name recorded); kept separate from third-party votes",
+   "spoiler_possible": "third-party votes exceed the margin -- an arithmetic screen, NOT a finding that spoiling occurred",
+   "caveat": "CVR total is 1,058,810 ballots vs the tracker headline 1,058,813 (Garfield +1, Washington CD3 +2) -- a known 3-ballot feed undercount, not missing ballots."
+  }
+ },
+ "contests": [
+  {
+   "contest_id": "CD1",
+   "display_name": "U.S. House District 1",
+   "contest_type": "US House",
+   "district": "1",
+   "ballots_with_race": 259467,
+   "total_candidate_votes": 257286,
+   "undervotes": 2181,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BEN MCADAMS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 181258
+    },
+    {
+     "name": "RILEY OWEN",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 66222
+    },
+    {
+     "name": "JESSE WEST",
+     "party": "Libertarian",
+     "bucket": "Other",
+     "votes": 5996
+    },
+    {
+     "name": "ELIAS HENRY MONTGOMERY",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 3732
+    },
+    {
+     "name": "BABAK BOBBY DARVISH",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 78
+    }
+   ],
+   "winner": {
+    "name": "BEN MCADAMS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 181258
+   },
+   "runner_up": {
+    "name": "RILEY OWEN",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 66222
+   },
+   "margin": 115036,
+   "margin_share": 0.447113,
+   "third_party_votes": 9806,
+   "third_party_share": 0.038113,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -105230,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -105230,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "CD2",
+   "display_name": "U.S. House District 2",
+   "contest_type": "US House",
+   "district": "2",
+   "ballots_with_race": 261365,
+   "total_candidate_votes": 257814,
+   "undervotes": 3551,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BLAKE D MOORE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 128179
+    },
+    {
+     "name": "PETER CROSBY",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 109840
+    },
+    {
+     "name": "CARLTON E BOWEN",
+     "party": "Independent American",
+     "bucket": "Other",
+     "votes": 8542
+    },
+    {
+     "name": "ROBERT M MOESINGER",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 6607
+    },
+    {
+     "name": "DANIEL COTTAM",
+     "party": "Libertarian",
+     "bucket": "Other",
+     "votes": 4646
+    }
+   ],
+   "winner": {
+    "name": "BLAKE D MOORE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 128179
+   },
+   "runner_up": {
+    "name": "PETER CROSBY",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 109840
+   },
+   "margin": 18339,
+   "margin_share": 0.071133,
+   "third_party_votes": 19795,
+   "third_party_share": 0.07678,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": 1456,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 1456,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "CD3",
+   "display_name": "U.S. House District 3",
+   "contest_type": "US House",
+   "district": "3",
+   "ballots_with_race": 264002,
+   "total_candidate_votes": 260508,
+   "undervotes": 3494,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CELESTE MALOY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 146854
+    },
+    {
+     "name": "KENT S UDELL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 93533
+    },
+    {
+     "name": "CASSIE EASLEY",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 8116
+    },
+    {
+     "name": "MICHAEL R STODDARD",
+     "party": "Libertarian",
+     "bucket": "Other",
+     "votes": 5810
+    },
+    {
+     "name": "AYDEN SCOTT",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 4305
+    },
+    {
+     "name": "ADONIS HOOSLYN",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 1890
+    }
+   ],
+   "winner": {
+    "name": "CELESTE MALOY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 146854
+   },
+   "runner_up": {
+    "name": "KENT S UDELL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 93533
+   },
+   "margin": 53321,
+   "margin_share": 0.204681,
+   "third_party_votes": 20121,
+   "third_party_share": 0.077238,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -33200,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -33200,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "CD4",
+   "display_name": "U.S. House District 4",
+   "contest_type": "US House",
+   "district": "4",
+   "ballots_with_race": 273976,
+   "total_candidate_votes": 271236,
+   "undervotes": 2740,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "MIKE KENNEDY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 144089
+    },
+    {
+     "name": "JONNY LARSEN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 106593
+    },
+    {
+     "name": "STEVEN BURT",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 11735
+    },
+    {
+     "name": "TAYLOR WRIGHT",
+     "party": "Libertarian",
+     "bucket": "Other",
+     "votes": 8819
+    }
+   ],
+   "winner": {
+    "name": "MIKE KENNEDY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 144089
+   },
+   "runner_up": {
+    "name": "JONNY LARSEN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 106593
+   },
+   "margin": 37496,
+   "margin_share": 0.138241,
+   "third_party_votes": 20554,
+   "third_party_share": 0.075779,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -16942,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -16942,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD1",
+   "display_name": "State Senate District 1",
+   "contest_type": "State Senate",
+   "district": "1",
+   "ballots_with_race": 37984,
+   "total_candidate_votes": 37257,
+   "undervotes": 727,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SCOTT SANDALL",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 24524
+    },
+    {
+     "name": "CLAUDIA BIGLER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 9570
+    },
+    {
+     "name": "JULIE QUINLAN",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 3163
+    }
+   ],
+   "winner": {
+    "name": "SCOTT SANDALL",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 24524
+   },
+   "runner_up": {
+    "name": "CLAUDIA BIGLER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 9570
+   },
+   "margin": 14954,
+   "margin_share": 0.401374,
+   "third_party_votes": 3163,
+   "third_party_share": 0.084897,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -11791,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -11791,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD5",
+   "display_name": "State Senate District 5",
+   "contest_type": "State Senate",
+   "district": "5",
+   "ballots_with_race": 31768,
+   "total_candidate_votes": 31200,
+   "undervotes": 568,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CJ CHRISTINA HERNANDEZ",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 17466
+    },
+    {
+     "name": "JILL F KOFORD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 13734
+    }
+   ],
+   "winner": {
+    "name": "CJ CHRISTINA HERNANDEZ",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 17466
+   },
+   "runner_up": {
+    "name": "JILL F KOFORD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 13734
+   },
+   "margin": 3732,
+   "margin_share": 0.119615,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3732,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3732,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD6",
+   "display_name": "State Senate District 6",
+   "contest_type": "State Senate",
+   "district": "6",
+   "ballots_with_race": 33144,
+   "total_candidate_votes": 32536,
+   "undervotes": 608,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "TAMI TRAN",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 18430
+    },
+    {
+     "name": "JARED NEAL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 11723
+    },
+    {
+     "name": "JOSH SMITH",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 2383
+    }
+   ],
+   "winner": {
+    "name": "TAMI TRAN",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 18430
+   },
+   "runner_up": {
+    "name": "JARED NEAL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 11723
+   },
+   "margin": 6707,
+   "margin_share": 0.206141,
+   "third_party_votes": 2383,
+   "third_party_share": 0.073242,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -4324,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4324,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD7",
+   "display_name": "State Senate District 7",
+   "contest_type": "State Senate",
+   "district": "7",
+   "ballots_with_race": 40894,
+   "total_candidate_votes": 40051,
+   "undervotes": 843,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "STEPHANIE HOLLIST",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 22765
+    },
+    {
+     "name": "GARRET RUSHFORTH",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 15158
+    },
+    {
+     "name": "JEFFREY OSTLER",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 2128
+    }
+   ],
+   "winner": {
+    "name": "STEPHANIE HOLLIST",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 22765
+   },
+   "runner_up": {
+    "name": "GARRET RUSHFORTH",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 15158
+   },
+   "margin": 7607,
+   "margin_share": 0.189933,
+   "third_party_votes": 2128,
+   "third_party_share": 0.053132,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -5479,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5479,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD9",
+   "display_name": "State Senate District 9",
+   "contest_type": "State Senate",
+   "district": "9",
+   "ballots_with_race": 41081,
+   "total_candidate_votes": 40648,
+   "undervotes": 433,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JEN PLUMB",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 34404
+    },
+    {
+     "name": "THADDEUS A EVANS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 5059
+    },
+    {
+     "name": "J LOWRY SNOW",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 1185
+    }
+   ],
+   "winner": {
+    "name": "JEN PLUMB",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 34404
+   },
+   "runner_up": {
+    "name": "THADDEUS A EVANS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 5059
+   },
+   "margin": 29345,
+   "margin_share": 0.72193,
+   "third_party_votes": 1185,
+   "third_party_share": 0.029153,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -28160,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -28160,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD11",
+   "display_name": "State Senate District 11",
+   "contest_type": "State Senate",
+   "district": "11",
+   "ballots_with_race": 34136,
+   "total_candidate_votes": 32594,
+   "undervotes": 1542,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BROOKS BENSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 16358
+    },
+    {
+     "name": "EMILY BUSS",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 16236
+    }
+   ],
+   "winner": {
+    "name": "BROOKS BENSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 16358
+   },
+   "runner_up": {
+    "name": "EMILY BUSS",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 16236
+   },
+   "margin": 122,
+   "margin_share": 0.003743,
+   "third_party_votes": 16236,
+   "third_party_share": 0.498128,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": 16114,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 16114,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "SD12",
+   "display_name": "State Senate District 12",
+   "contest_type": "State Senate",
+   "district": "12",
+   "ballots_with_race": 25863,
+   "total_candidate_votes": 25536,
+   "undervotes": 327,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KAREN KWAN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 17592
+    },
+    {
+     "name": "DEIDRE TYLER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7944
+    }
+   ],
+   "winner": {
+    "name": "KAREN KWAN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 17592
+   },
+   "runner_up": {
+    "name": "DEIDRE TYLER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7944
+   },
+   "margin": 9648,
+   "margin_share": 0.37782,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -9648,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -9648,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD13",
+   "display_name": "State Senate District 13",
+   "contest_type": "State Senate",
+   "district": "13",
+   "ballots_with_race": 34524,
+   "total_candidate_votes": 34099,
+   "undervotes": 425,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SILVIA CATTEN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 26396
+    },
+    {
+     "name": "RYAN L MAHONEY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6345
+    },
+    {
+     "name": "COLIN SMITH",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 1358
+    }
+   ],
+   "winner": {
+    "name": "SILVIA CATTEN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 26396
+   },
+   "runner_up": {
+    "name": "RYAN L MAHONEY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6345
+   },
+   "margin": 20051,
+   "margin_share": 0.588023,
+   "third_party_votes": 1358,
+   "third_party_share": 0.039825,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -18693,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -18693,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD14",
+   "display_name": "State Senate District 14",
+   "contest_type": "State Senate",
+   "district": "14",
+   "ballots_with_race": 51386,
+   "total_candidate_votes": 39351,
+   "undervotes": 12035,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "STEPHANIE PITCHER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 39351
+    }
+   ],
+   "winner": {
+    "name": "STEPHANIE PITCHER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 39351
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD18",
+   "display_name": "State Senate District 18",
+   "contest_type": "State Senate",
+   "district": "18",
+   "ballots_with_race": 35431,
+   "total_candidate_votes": 34775,
+   "undervotes": 656,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DOUG FIEFIA",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 20485
+    },
+    {
+     "name": "A DANE ANDERSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 14290
+    }
+   ],
+   "winner": {
+    "name": "DOUG FIEFIA",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 20485
+   },
+   "runner_up": {
+    "name": "A DANE ANDERSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 14290
+   },
+   "margin": 6195,
+   "margin_share": 0.178145,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -6195,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -6195,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD19",
+   "display_name": "State Senate District 19",
+   "contest_type": "State Senate",
+   "district": "19",
+   "ballots_with_race": 46712,
+   "total_candidate_votes": 45972,
+   "undervotes": 740,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SHANA ANDERSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 24859
+    },
+    {
+     "name": "KIRK CULLIMORE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 21113
+    }
+   ],
+   "winner": {
+    "name": "SHANA ANDERSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 24859
+   },
+   "runner_up": {
+    "name": "KIRK CULLIMORE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 21113
+   },
+   "margin": 3746,
+   "margin_share": 0.081484,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3746,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3746,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD20",
+   "display_name": "State Senate District 20",
+   "contest_type": "State Senate",
+   "district": "20",
+   "ballots_with_race": 40193,
+   "total_candidate_votes": 37807,
+   "undervotes": 2386,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "RONALD M WINTERTON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 22931
+    },
+    {
+     "name": "ANNETTE MCRAE",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 14876
+    }
+   ],
+   "winner": {
+    "name": "RONALD M WINTERTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 22931
+   },
+   "runner_up": {
+    "name": "ANNETTE MCRAE",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 14876
+   },
+   "margin": 8055,
+   "margin_share": 0.213056,
+   "third_party_votes": 14876,
+   "third_party_share": 0.393472,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": 6821,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 6821,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "SD21",
+   "display_name": "State Senate District 21",
+   "contest_type": "State Senate",
+   "district": "21",
+   "ballots_with_race": 39692,
+   "total_candidate_votes": 39124,
+   "undervotes": 568,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BRADY BRAMMER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 22322
+    },
+    {
+     "name": "KANDEE MYERS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 10984
+    },
+    {
+     "name": "WAYNE WOODFIELD",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 5818
+    }
+   ],
+   "winner": {
+    "name": "BRADY BRAMMER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 22322
+   },
+   "runner_up": {
+    "name": "KANDEE MYERS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 10984
+   },
+   "margin": 11338,
+   "margin_share": 0.289797,
+   "third_party_votes": 5818,
+   "third_party_share": 0.148707,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -5520,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5520,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD23",
+   "display_name": "State Senate District 23",
+   "contest_type": "State Senate",
+   "district": "23",
+   "ballots_with_race": 28513,
+   "total_candidate_votes": 27816,
+   "undervotes": 697,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KEITH GROVER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 15174
+    },
+    {
+     "name": "TUCKER SMITH",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 12642
+    }
+   ],
+   "winner": {
+    "name": "KEITH GROVER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 15174
+   },
+   "runner_up": {
+    "name": "TUCKER SMITH",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 12642
+   },
+   "margin": 2532,
+   "margin_share": 0.091027,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2532,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2532,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "SD28",
+   "display_name": "State Senate District 28",
+   "contest_type": "State Senate",
+   "district": "28",
+   "ballots_with_race": 37681,
+   "total_candidate_votes": 36863,
+   "undervotes": 818,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "EVAN J VICKERS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 27707
+    },
+    {
+     "name": "RICHARD S ROBILLARD",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 9156
+    }
+   ],
+   "winner": {
+    "name": "EVAN J VICKERS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 27707
+   },
+   "runner_up": {
+    "name": "RICHARD S ROBILLARD",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 9156
+   },
+   "margin": 18551,
+   "margin_share": 0.503242,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -18551,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -18551,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD1",
+   "display_name": "State House District 1",
+   "contest_type": "State House",
+   "district": "1",
+   "ballots_with_race": 15034,
+   "total_candidate_votes": 14675,
+   "undervotes": 359,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "THOMAS PETERSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10153
+    },
+    {
+     "name": "CHRIS REID",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 3110
+    },
+    {
+     "name": "JASON O DELL",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 1412
+    }
+   ],
+   "winner": {
+    "name": "THOMAS PETERSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10153
+   },
+   "runner_up": {
+    "name": "CHRIS REID",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 3110
+   },
+   "margin": 7043,
+   "margin_share": 0.479932,
+   "third_party_votes": 1412,
+   "third_party_share": 0.096218,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -5631,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5631,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD2",
+   "display_name": "State House District 2",
+   "contest_type": "State House",
+   "district": "2",
+   "ballots_with_race": 14280,
+   "total_candidate_votes": 14025,
+   "undervotes": 255,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "MIKE PETERSEN",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8704
+    },
+    {
+     "name": "BARBARA J HAGGERTY",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5321
+    }
+   ],
+   "winner": {
+    "name": "MIKE PETERSEN",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8704
+   },
+   "runner_up": {
+    "name": "BARBARA J HAGGERTY",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5321
+   },
+   "margin": 3383,
+   "margin_share": 0.241212,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3383,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3383,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD3",
+   "display_name": "State House District 3",
+   "contest_type": "State House",
+   "district": "3",
+   "ballots_with_race": 11434,
+   "total_candidate_votes": 11167,
+   "undervotes": 267,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "PATRICK BELMONT",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 6595
+    },
+    {
+     "name": "JASON E THOMPSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4572
+    }
+   ],
+   "winner": {
+    "name": "PATRICK BELMONT",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 6595
+   },
+   "runner_up": {
+    "name": "JASON E THOMPSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4572
+   },
+   "margin": 2023,
+   "margin_share": 0.181159,
+   "third_party_votes": 6595,
+   "third_party_share": 0.590579,
+   "third_party_best_finish": "winner",
+   "third_party_minus_margin": 4572,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 4572,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD4",
+   "display_name": "State House District 4",
+   "contest_type": "State House",
+   "district": "4",
+   "ballots_with_race": 19658,
+   "total_candidate_votes": 19332,
+   "undervotes": 326,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ZANE WOOLSTENHULME",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 10006
+    },
+    {
+     "name": "TIARA AUXIER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9326
+    }
+   ],
+   "winner": {
+    "name": "ZANE WOOLSTENHULME",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 10006
+   },
+   "runner_up": {
+    "name": "TIARA AUXIER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9326
+   },
+   "margin": 680,
+   "margin_share": 0.035175,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -680,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -680,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD5",
+   "display_name": "State House District 5",
+   "contest_type": "State House",
+   "district": "5",
+   "ballots_with_race": 16005,
+   "total_candidate_votes": 15701,
+   "undervotes": 304,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CASEY SNIDER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10296
+    },
+    {
+     "name": "KENDRA PENRY",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5405
+    }
+   ],
+   "winner": {
+    "name": "CASEY SNIDER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10296
+   },
+   "runner_up": {
+    "name": "KENDRA PENRY",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5405
+   },
+   "margin": 4891,
+   "margin_share": 0.311509,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -4891,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4891,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD6",
+   "display_name": "State House District 6",
+   "contest_type": "State House",
+   "district": "6",
+   "ballots_with_race": 14949,
+   "total_candidate_votes": 14350,
+   "undervotes": 599,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ROB BISHOP",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9818
+    },
+    {
+     "name": "JAMES RICH",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 4532
+    }
+   ],
+   "winner": {
+    "name": "ROB BISHOP",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9818
+   },
+   "runner_up": {
+    "name": "JAMES RICH",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 4532
+   },
+   "margin": 5286,
+   "margin_share": 0.368362,
+   "third_party_votes": 4532,
+   "third_party_share": 0.315819,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": -754,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -754,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD7",
+   "display_name": "State House District 7",
+   "contest_type": "State House",
+   "district": "7",
+   "ballots_with_race": 12701,
+   "total_candidate_votes": 12500,
+   "undervotes": 201,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "RYAN D WILCOX",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6484
+    },
+    {
+     "name": "BIANCA MITTENDORF",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6016
+    }
+   ],
+   "winner": {
+    "name": "RYAN D WILCOX",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6484
+   },
+   "runner_up": {
+    "name": "BIANCA MITTENDORF",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6016
+   },
+   "margin": 468,
+   "margin_share": 0.03744,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -468,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -468,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD8",
+   "display_name": "State House District 8",
+   "contest_type": "State House",
+   "district": "8",
+   "ballots_with_race": 15045,
+   "total_candidate_votes": 14895,
+   "undervotes": 150,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KIM JAMES",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7430
+    },
+    {
+     "name": "JASON B KYLE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6837
+    },
+    {
+     "name": "LIBBY SHELTON",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 628
+    }
+   ],
+   "winner": {
+    "name": "KIM JAMES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7430
+   },
+   "runner_up": {
+    "name": "JASON B KYLE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6837
+   },
+   "margin": 593,
+   "margin_share": 0.039812,
+   "third_party_votes": 628,
+   "third_party_share": 0.042162,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": 35,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 35,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD9",
+   "display_name": "State House District 9",
+   "contest_type": "State House",
+   "district": "9",
+   "ballots_with_race": 11521,
+   "total_candidate_votes": 11347,
+   "undervotes": 174,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ANGELA CHOBERKA",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6113
+    },
+    {
+     "name": "JAKE SAWYER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 5234
+    }
+   ],
+   "winner": {
+    "name": "ANGELA CHOBERKA",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6113
+   },
+   "runner_up": {
+    "name": "JAKE SAWYER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 5234
+   },
+   "margin": 879,
+   "margin_share": 0.077465,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -879,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -879,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD10",
+   "display_name": "State House District 10",
+   "contest_type": "State House",
+   "district": "10",
+   "ballots_with_race": 11842,
+   "total_candidate_votes": 11468,
+   "undervotes": 374,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ROSEMARY T LESSER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7149
+    },
+    {
+     "name": "JIM ALVEY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4319
+    }
+   ],
+   "winner": {
+    "name": "ROSEMARY T LESSER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7149
+   },
+   "runner_up": {
+    "name": "JIM ALVEY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4319
+   },
+   "margin": 2830,
+   "margin_share": 0.246774,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2830,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2830,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD11",
+   "display_name": "State House District 11",
+   "contest_type": "State House",
+   "district": "11",
+   "ballots_with_race": 11988,
+   "total_candidate_votes": 11516,
+   "undervotes": 472,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KATY HALL",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 5970
+    },
+    {
+     "name": "DAVE CALDER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5546
+    }
+   ],
+   "winner": {
+    "name": "KATY HALL",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 5970
+   },
+   "runner_up": {
+    "name": "DAVE CALDER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5546
+   },
+   "margin": 424,
+   "margin_share": 0.036818,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -424,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -424,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD12",
+   "display_name": "State House District 12",
+   "contest_type": "State House",
+   "district": "12",
+   "ballots_with_race": 13401,
+   "total_candidate_votes": 13183,
+   "undervotes": 218,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "MIKE SCHULTZ",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7595
+    },
+    {
+     "name": "ANNA GRAFF",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5588
+    }
+   ],
+   "winner": {
+    "name": "MIKE SCHULTZ",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7595
+   },
+   "runner_up": {
+    "name": "ANNA GRAFF",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5588
+   },
+   "margin": 2007,
+   "margin_share": 0.152242,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2007,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2007,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD13",
+   "display_name": "State House District 13",
+   "contest_type": "State House",
+   "district": "13",
+   "ballots_with_race": 12396,
+   "total_candidate_votes": 12096,
+   "undervotes": 300,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ERIK R CRAYTHORNE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6428
+    },
+    {
+     "name": "JEFFREY ANDERSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4813
+    },
+    {
+     "name": "TONY DE MILLE",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 855
+    }
+   ],
+   "winner": {
+    "name": "ERIK R CRAYTHORNE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6428
+   },
+   "runner_up": {
+    "name": "JEFFREY ANDERSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4813
+   },
+   "margin": 1615,
+   "margin_share": 0.133515,
+   "third_party_votes": 855,
+   "third_party_share": 0.070685,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -760,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -760,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD14",
+   "display_name": "State House District 14",
+   "contest_type": "State House",
+   "district": "14",
+   "ballots_with_race": 11774,
+   "total_candidate_votes": 11485,
+   "undervotes": 289,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JOHN TAYLOR",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6368
+    },
+    {
+     "name": "BRANDON YOUNG",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5117
+    }
+   ],
+   "winner": {
+    "name": "JOHN TAYLOR",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6368
+   },
+   "runner_up": {
+    "name": "BRANDON YOUNG",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5117
+   },
+   "margin": 1251,
+   "margin_share": 0.108925,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1251,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1251,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD15",
+   "display_name": "State House District 15",
+   "contest_type": "State House",
+   "district": "15",
+   "ballots_with_race": 14613,
+   "total_candidate_votes": 14207,
+   "undervotes": 406,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ARIEL DEFAY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8611
+    },
+    {
+     "name": "ANNE BERBERT",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5596
+    }
+   ],
+   "winner": {
+    "name": "ARIEL DEFAY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8611
+   },
+   "runner_up": {
+    "name": "ANNE BERBERT",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5596
+   },
+   "margin": 3015,
+   "margin_share": 0.212219,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3015,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3015,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD16",
+   "display_name": "State House District 16",
+   "contest_type": "State House",
+   "district": "16",
+   "ballots_with_race": 13275,
+   "total_candidate_votes": 12963,
+   "undervotes": 312,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BOB J STEVENSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6673
+    },
+    {
+     "name": "ABIGAIL TREASURE",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6290
+    }
+   ],
+   "winner": {
+    "name": "BOB J STEVENSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6673
+   },
+   "runner_up": {
+    "name": "ABIGAIL TREASURE",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6290
+   },
+   "margin": 383,
+   "margin_share": 0.029546,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -383,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -383,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD17",
+   "display_name": "State House District 17",
+   "contest_type": "State House",
+   "district": "17",
+   "ballots_with_race": 15299,
+   "total_candidate_votes": 14883,
+   "undervotes": 416,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "LILI BITNER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8835
+    },
+    {
+     "name": "ERIC LAST",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6048
+    }
+   ],
+   "winner": {
+    "name": "LILI BITNER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8835
+   },
+   "runner_up": {
+    "name": "ERIC LAST",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6048
+   },
+   "margin": 2787,
+   "margin_share": 0.187261,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2787,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2787,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD18",
+   "display_name": "State House District 18",
+   "contest_type": "State House",
+   "district": "18",
+   "ballots_with_race": 15964,
+   "total_candidate_votes": 15480,
+   "undervotes": 484,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "PAUL CUTLER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9214
+    },
+    {
+     "name": "SCOTT TROXEL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6266
+    }
+   ],
+   "winner": {
+    "name": "PAUL CUTLER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9214
+   },
+   "runner_up": {
+    "name": "SCOTT TROXEL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6266
+   },
+   "margin": 2948,
+   "margin_share": 0.190439,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2948,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2948,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD19",
+   "display_name": "State House District 19",
+   "contest_type": "State House",
+   "district": "19",
+   "ballots_with_race": 15827,
+   "total_candidate_votes": 11056,
+   "undervotes": 4771,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "RAYMOND P WARD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 11056
+    }
+   ],
+   "winner": {
+    "name": "RAYMOND P WARD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 11056
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD20",
+   "display_name": "State House District 20",
+   "contest_type": "State House",
+   "district": "20",
+   "ballots_with_race": 13381,
+   "total_candidate_votes": 13082,
+   "undervotes": 299,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "PHIL GRAVES",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6713
+    },
+    {
+     "name": "MELISSA BALLARD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6369
+    }
+   ],
+   "winner": {
+    "name": "PHIL GRAVES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6713
+   },
+   "runner_up": {
+    "name": "MELISSA BALLARD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6369
+   },
+   "margin": 344,
+   "margin_share": 0.026296,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -344,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -344,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD21",
+   "display_name": "State House District 21",
+   "contest_type": "State House",
+   "district": "21",
+   "ballots_with_race": 10556,
+   "total_candidate_votes": 8926,
+   "undervotes": 1630,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "STEPHEN OTTERSTROM",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 8926
+    }
+   ],
+   "winner": {
+    "name": "STEPHEN OTTERSTROM",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 8926
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD22",
+   "display_name": "State House District 22",
+   "contest_type": "State House",
+   "district": "22",
+   "ballots_with_race": 16542,
+   "total_candidate_votes": 16154,
+   "undervotes": 388,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JEN DAILEY PROVOST",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 14154
+    },
+    {
+     "name": "CHAR VARGA",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 2000
+    }
+   ],
+   "winner": {
+    "name": "JEN DAILEY PROVOST",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 14154
+   },
+   "runner_up": {
+    "name": "CHAR VARGA",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 2000
+   },
+   "margin": 12154,
+   "margin_share": 0.752383,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -12154,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -12154,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD23",
+   "display_name": "State House District 23",
+   "contest_type": "State House",
+   "district": "23",
+   "ballots_with_race": 21623,
+   "total_candidate_votes": 21193,
+   "undervotes": 430,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "HOANG NGUYEN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 17251
+    },
+    {
+     "name": "FRANKLIN D ROBINSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 3402
+    },
+    {
+     "name": "CABOT W NELSON",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 540
+    }
+   ],
+   "winner": {
+    "name": "HOANG NGUYEN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 17251
+   },
+   "runner_up": {
+    "name": "FRANKLIN D ROBINSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 3402
+   },
+   "margin": 13849,
+   "margin_share": 0.65347,
+   "third_party_votes": 540,
+   "third_party_share": 0.02548,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -13309,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -13309,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD24",
+   "display_name": "State House District 24",
+   "contest_type": "State House",
+   "district": "24",
+   "ballots_with_race": 16579,
+   "total_candidate_votes": 16267,
+   "undervotes": 312,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "GRANT AMJAD MILLER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 14611
+    },
+    {
+     "name": "BRAEDEN J OSWALD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 1656
+    }
+   ],
+   "winner": {
+    "name": "GRANT AMJAD MILLER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 14611
+   },
+   "runner_up": {
+    "name": "BRAEDEN J OSWALD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 1656
+   },
+   "margin": 12955,
+   "margin_share": 0.796398,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -12955,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -12955,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD25",
+   "display_name": "State House District 25",
+   "contest_type": "State House",
+   "district": "25",
+   "ballots_with_race": 7570,
+   "total_candidate_votes": 7473,
+   "undervotes": 97,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ANGELA ROMERO",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5875
+    },
+    {
+     "name": "RICHARD T NOWAK",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 1598
+    }
+   ],
+   "winner": {
+    "name": "ANGELA ROMERO",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5875
+   },
+   "runner_up": {
+    "name": "RICHARD T NOWAK",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 1598
+   },
+   "margin": 4277,
+   "margin_share": 0.572327,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -4277,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4277,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD26",
+   "display_name": "State House District 26",
+   "contest_type": "State House",
+   "district": "26",
+   "ballots_with_race": 10884,
+   "total_candidate_votes": 10796,
+   "undervotes": 88,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "MICHAEL E FINCH",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7115
+    },
+    {
+     "name": "MATT MACPHERSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 3681
+    }
+   ],
+   "winner": {
+    "name": "MICHAEL E FINCH",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7115
+   },
+   "runner_up": {
+    "name": "MATT MACPHERSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 3681
+   },
+   "margin": 3434,
+   "margin_share": 0.318081,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3434,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3434,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD27",
+   "display_name": "State House District 27",
+   "contest_type": "State House",
+   "district": "27",
+   "ballots_with_race": 11514,
+   "total_candidate_votes": 11390,
+   "undervotes": 124,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "LIZ OATES",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7209
+    },
+    {
+     "name": "ANTHONY LOUBET",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4181
+    }
+   ],
+   "winner": {
+    "name": "LIZ OATES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7209
+   },
+   "runner_up": {
+    "name": "ANTHONY LOUBET",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4181
+   },
+   "margin": 3028,
+   "margin_share": 0.265847,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3028,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3028,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD28",
+   "display_name": "State House District 28",
+   "contest_type": "State House",
+   "district": "28",
+   "ballots_with_race": 11789,
+   "total_candidate_votes": 11573,
+   "undervotes": 216,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "NICHOLEEN PECK",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6178
+    },
+    {
+     "name": "ANITA DALRYMPLE",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4476
+    },
+    {
+     "name": "WALES NEMATOLLAHI",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 919
+    }
+   ],
+   "winner": {
+    "name": "NICHOLEEN PECK",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6178
+   },
+   "runner_up": {
+    "name": "ANITA DALRYMPLE",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4476
+   },
+   "margin": 1702,
+   "margin_share": 0.147066,
+   "third_party_votes": 919,
+   "third_party_share": 0.079409,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -783,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -783,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD29",
+   "display_name": "State House District 29",
+   "contest_type": "State House",
+   "district": "29",
+   "ballots_with_race": 13906,
+   "total_candidate_votes": 13702,
+   "undervotes": 204,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SHELDON BIRCH",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9176
+    },
+    {
+     "name": "SARA SNOW",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 3140
+    },
+    {
+     "name": "JONATHAN GARRARD",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 705
+    },
+    {
+     "name": "TYNLEY BEAN",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 681
+    }
+   ],
+   "winner": {
+    "name": "SHELDON BIRCH",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9176
+   },
+   "runner_up": {
+    "name": "SARA SNOW",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 3140
+   },
+   "margin": 6036,
+   "margin_share": 0.44052,
+   "third_party_votes": 1386,
+   "third_party_share": 0.101153,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -4650,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4650,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD30",
+   "display_name": "State House District 30",
+   "contest_type": "State House",
+   "district": "30",
+   "ballots_with_race": 11093,
+   "total_candidate_votes": 10994,
+   "undervotes": 99,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JAKE FITISEMANU",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7260
+    },
+    {
+     "name": "DAVE PARKE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 3734
+    }
+   ],
+   "winner": {
+    "name": "JAKE FITISEMANU",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7260
+   },
+   "runner_up": {
+    "name": "DAVE PARKE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 3734
+   },
+   "margin": 3526,
+   "margin_share": 0.32072,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3526,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3526,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD31",
+   "display_name": "State House District 31",
+   "contest_type": "State House",
+   "district": "31",
+   "ballots_with_race": 9843,
+   "total_candidate_votes": 9688,
+   "undervotes": 155,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "VERONA MAUGA",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6859
+    },
+    {
+     "name": "MELODY JONES",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 2829
+    }
+   ],
+   "winner": {
+    "name": "VERONA MAUGA",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6859
+   },
+   "runner_up": {
+    "name": "MELODY JONES",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 2829
+   },
+   "margin": 4030,
+   "margin_share": 0.415979,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -4030,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4030,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD32",
+   "display_name": "State House District 32",
+   "contest_type": "State House",
+   "district": "32",
+   "ballots_with_race": 14247,
+   "total_candidate_votes": 13904,
+   "undervotes": 343,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SAHARA HAYES",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 11433
+    },
+    {
+     "name": "AILEEN HAMPTON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 2471
+    }
+   ],
+   "winner": {
+    "name": "SAHARA HAYES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 11433
+   },
+   "runner_up": {
+    "name": "AILEEN HAMPTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 2471
+   },
+   "margin": 8962,
+   "margin_share": 0.644563,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -8962,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -8962,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD33",
+   "display_name": "State House District 33",
+   "contest_type": "State House",
+   "district": "33",
+   "ballots_with_race": 21104,
+   "total_candidate_votes": 20567,
+   "undervotes": 537,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DOUG OWENS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 15587
+    },
+    {
+     "name": "ANNA REEVES",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4980
+    }
+   ],
+   "winner": {
+    "name": "DOUG OWENS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 15587
+   },
+   "runner_up": {
+    "name": "ANNA REEVES",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4980
+   },
+   "margin": 10607,
+   "margin_share": 0.515729,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -10607,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -10607,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD34",
+   "display_name": "State House District 34",
+   "contest_type": "State House",
+   "district": "34",
+   "ballots_with_race": 17022,
+   "total_candidate_votes": 12710,
+   "undervotes": 4312,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JULIE JACKSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 12710
+    }
+   ],
+   "winner": {
+    "name": "JULIE JACKSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 12710
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD35",
+   "display_name": "State House District 35",
+   "contest_type": "State House",
+   "district": "35",
+   "ballots_with_race": 14200,
+   "total_candidate_votes": 13947,
+   "undervotes": 253,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ROSALBA DOMINGUEZ",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 9252
+    },
+    {
+     "name": "MONIQUE I KETCHAM",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4695
+    }
+   ],
+   "winner": {
+    "name": "ROSALBA DOMINGUEZ",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 9252
+   },
+   "runner_up": {
+    "name": "MONIQUE I KETCHAM",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4695
+   },
+   "margin": 4557,
+   "margin_share": 0.326737,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -4557,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4557,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD36",
+   "display_name": "State House District 36",
+   "contest_type": "State House",
+   "district": "36",
+   "ballots_with_race": 14500,
+   "total_candidate_votes": 14340,
+   "undervotes": 160,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "BLAKE TOWNSEND",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7702
+    },
+    {
+     "name": "JIM DUNNIGAN",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6638
+    }
+   ],
+   "winner": {
+    "name": "BLAKE TOWNSEND",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7702
+   },
+   "runner_up": {
+    "name": "JIM DUNNIGAN",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6638
+   },
+   "margin": 1064,
+   "margin_share": 0.074198,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1064,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1064,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD37",
+   "display_name": "State House District 37",
+   "contest_type": "State House",
+   "district": "37",
+   "ballots_with_race": 9672,
+   "total_candidate_votes": 9574,
+   "undervotes": 98,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ASHLEE MATTHEWS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6355
+    },
+    {
+     "name": "CASEY SAXTON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 3219
+    }
+   ],
+   "winner": {
+    "name": "ASHLEE MATTHEWS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6355
+   },
+   "runner_up": {
+    "name": "CASEY SAXTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 3219
+   },
+   "margin": 3136,
+   "margin_share": 0.327554,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3136,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3136,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD38",
+   "display_name": "State House District 38",
+   "contest_type": "State House",
+   "district": "38",
+   "ballots_with_race": 11821,
+   "total_candidate_votes": 11187,
+   "undervotes": 634,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SERGIO SOTELO",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 6272
+    },
+    {
+     "name": "CHRIS MCCONNEHEY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4915
+    }
+   ],
+   "winner": {
+    "name": "SERGIO SOTELO",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 6272
+   },
+   "runner_up": {
+    "name": "CHRIS MCCONNEHEY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4915
+   },
+   "margin": 1357,
+   "margin_share": 0.121302,
+   "third_party_votes": 6272,
+   "third_party_share": 0.560651,
+   "third_party_best_finish": "winner",
+   "third_party_minus_margin": 4915,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 4915,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD39",
+   "display_name": "State House District 39",
+   "contest_type": "State House",
+   "district": "39",
+   "ballots_with_race": 12548,
+   "total_candidate_votes": 12404,
+   "undervotes": 144,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DREW HOWELLS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7283
+    },
+    {
+     "name": "KEN IVORY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 5121
+    }
+   ],
+   "winner": {
+    "name": "DREW HOWELLS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7283
+   },
+   "runner_up": {
+    "name": "KEN IVORY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 5121
+   },
+   "margin": 2162,
+   "margin_share": 0.174299,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2162,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2162,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD40",
+   "display_name": "State House District 40",
+   "contest_type": "State House",
+   "district": "40",
+   "ballots_with_race": 12425,
+   "total_candidate_votes": 9454,
+   "undervotes": 2971,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "ANDREW STODDARD",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 9454
+    }
+   ],
+   "winner": {
+    "name": "ANDREW STODDARD",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 9454
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD41",
+   "display_name": "State House District 41",
+   "contest_type": "State House",
+   "district": "41",
+   "ballots_with_race": 20030,
+   "total_candidate_votes": 19744,
+   "undervotes": 286,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JOHN ARTHUR",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 13092
+    },
+    {
+     "name": "DARREN CROFT",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 6652
+    }
+   ],
+   "winner": {
+    "name": "JOHN ARTHUR",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 13092
+   },
+   "runner_up": {
+    "name": "DARREN CROFT",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6652
+   },
+   "margin": 6440,
+   "margin_share": 0.326175,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -6440,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -6440,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD42",
+   "display_name": "State House District 42",
+   "contest_type": "State House",
+   "district": "42",
+   "ballots_with_race": 20463,
+   "total_candidate_votes": 20222,
+   "undervotes": 241,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "IVA WILLIAMS",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 10832
+    },
+    {
+     "name": "CLINT OKERLUND",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9390
+    }
+   ],
+   "winner": {
+    "name": "IVA WILLIAMS",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 10832
+   },
+   "runner_up": {
+    "name": "CLINT OKERLUND",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9390
+   },
+   "margin": 1442,
+   "margin_share": 0.071308,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1442,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1442,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD43",
+   "display_name": "State House District 43",
+   "contest_type": "State House",
+   "district": "43",
+   "ballots_with_race": 15776,
+   "total_candidate_votes": 15479,
+   "undervotes": 297,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "OFA MATAGI",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 8458
+    },
+    {
+     "name": "STEVE ELIASON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7021
+    }
+   ],
+   "winner": {
+    "name": "OFA MATAGI",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 8458
+   },
+   "runner_up": {
+    "name": "STEVE ELIASON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7021
+   },
+   "margin": 1437,
+   "margin_share": 0.092835,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1437,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1437,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD44",
+   "display_name": "State House District 44",
+   "contest_type": "State House",
+   "district": "44",
+   "ballots_with_race": 16666,
+   "total_candidate_votes": 16375,
+   "undervotes": 291,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JESS BIRTCHER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 8636
+    },
+    {
+     "name": "JORDAN TEUSCHER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7739
+    }
+   ],
+   "winner": {
+    "name": "JESS BIRTCHER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 8636
+   },
+   "runner_up": {
+    "name": "JORDAN TEUSCHER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7739
+   },
+   "margin": 897,
+   "margin_share": 0.054779,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -897,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -897,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD45",
+   "display_name": "State House District 45",
+   "contest_type": "State House",
+   "district": "45",
+   "ballots_with_race": 15776,
+   "total_candidate_votes": 15443,
+   "undervotes": 333,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "TRACY MILLER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8333
+    },
+    {
+     "name": "ROD MOSER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7110
+    }
+   ],
+   "winner": {
+    "name": "TRACY MILLER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8333
+   },
+   "runner_up": {
+    "name": "ROD MOSER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7110
+   },
+   "margin": 1223,
+   "margin_share": 0.079194,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1223,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1223,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD46",
+   "display_name": "State House District 46",
+   "contest_type": "State House",
+   "district": "46",
+   "ballots_with_race": 15005,
+   "total_candidate_votes": 14712,
+   "undervotes": 293,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CAL ROBERTS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8229
+    },
+    {
+     "name": "BRAXTEN RUTHERFORD",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6483
+    }
+   ],
+   "winner": {
+    "name": "CAL ROBERTS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8229
+   },
+   "runner_up": {
+    "name": "BRAXTEN RUTHERFORD",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6483
+   },
+   "margin": 1746,
+   "margin_share": 0.118679,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1746,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1746,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD47",
+   "display_name": "State House District 47",
+   "contest_type": "State House",
+   "district": "47",
+   "ballots_with_race": 14835,
+   "total_candidate_votes": 10035,
+   "undervotes": 4800,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "MARK A STRONG",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10035
+    }
+   ],
+   "winner": {
+    "name": "MARK A STRONG",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10035
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD48",
+   "display_name": "State House District 48",
+   "contest_type": "State House",
+   "district": "48",
+   "ballots_with_race": 15095,
+   "total_candidate_votes": 14793,
+   "undervotes": 302,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JAKE HUNSAKER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7492
+    },
+    {
+     "name": "BENYDE WALKER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7301
+    }
+   ],
+   "winner": {
+    "name": "JAKE HUNSAKER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7492
+   },
+   "runner_up": {
+    "name": "BENYDE WALKER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7301
+   },
+   "margin": 191,
+   "margin_share": 0.012912,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -191,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -191,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD49",
+   "display_name": "State House District 49",
+   "contest_type": "State House",
+   "district": "49",
+   "ballots_with_race": 14128,
+   "total_candidate_votes": 13910,
+   "undervotes": 218,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CANDICE B PIERUCCI",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7708
+    },
+    {
+     "name": "LILLIAN BOWLES",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6202
+    }
+   ],
+   "winner": {
+    "name": "CANDICE B PIERUCCI",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7708
+   },
+   "runner_up": {
+    "name": "LILLIAN BOWLES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6202
+   },
+   "margin": 1506,
+   "margin_share": 0.108267,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1506,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1506,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD50",
+   "display_name": "State House District 50",
+   "contest_type": "State House",
+   "district": "50",
+   "ballots_with_race": 13692,
+   "total_candidate_votes": 13334,
+   "undervotes": 358,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "STEPHANIE GRICIUS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7961
+    },
+    {
+     "name": "KRISTIN MEYER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5373
+    }
+   ],
+   "winner": {
+    "name": "STEPHANIE GRICIUS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7961
+   },
+   "runner_up": {
+    "name": "KRISTIN MEYER",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5373
+   },
+   "margin": 2588,
+   "margin_share": 0.19409,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2588,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2588,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD51",
+   "display_name": "State House District 51",
+   "contest_type": "State House",
+   "district": "51",
+   "ballots_with_race": 15587,
+   "total_candidate_votes": 15314,
+   "undervotes": 273,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "LEAH HANSEN",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8590
+    },
+    {
+     "name": "BRETT NIELSEN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6724
+    }
+   ],
+   "winner": {
+    "name": "LEAH HANSEN",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8590
+   },
+   "runner_up": {
+    "name": "BRETT NIELSEN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6724
+   },
+   "margin": 1866,
+   "margin_share": 0.121849,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1866,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1866,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD52",
+   "display_name": "State House District 52",
+   "contest_type": "State House",
+   "district": "52",
+   "ballots_with_race": 13575,
+   "total_candidate_votes": 13233,
+   "undervotes": 184,
+   "writein_votes": 158,
+   "candidates": [
+    {
+     "name": "CORY MALOY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7324
+    },
+    {
+     "name": "NICOLE MELLING",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5909
+    }
+   ],
+   "winner": {
+    "name": "CORY MALOY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7324
+   },
+   "runner_up": {
+    "name": "NICOLE MELLING",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5909
+   },
+   "margin": 1415,
+   "margin_share": 0.10693,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1415,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1257,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD53",
+   "display_name": "State House District 53",
+   "contest_type": "State House",
+   "district": "53",
+   "ballots_with_race": 14282,
+   "total_candidate_votes": 14125,
+   "undervotes": 157,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KAY J CHRISTOFFERSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7562
+    },
+    {
+     "name": "JOHN BOYD",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 4279
+    },
+    {
+     "name": "KEVIN R SLATER",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 2284
+    }
+   ],
+   "winner": {
+    "name": "KAY J CHRISTOFFERSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7562
+   },
+   "runner_up": {
+    "name": "JOHN BOYD",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 4279
+   },
+   "margin": 3283,
+   "margin_share": 0.232425,
+   "third_party_votes": 4279,
+   "third_party_share": 0.302938,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": 996,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 996,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD54",
+   "display_name": "State House District 54",
+   "contest_type": "State House",
+   "district": "54",
+   "ballots_with_race": 16305,
+   "total_candidate_votes": 15791,
+   "undervotes": 514,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "KRISTEN S CHEVRIER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10777
+    },
+    {
+     "name": "KRISTINA ROBINSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5014
+    }
+   ],
+   "winner": {
+    "name": "KRISTEN S CHEVRIER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10777
+   },
+   "runner_up": {
+    "name": "KRISTINA ROBINSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5014
+   },
+   "margin": 5763,
+   "margin_share": 0.364955,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -5763,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5763,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD55",
+   "display_name": "State House District 55",
+   "contest_type": "State House",
+   "district": "55",
+   "ballots_with_race": 13911,
+   "total_candidate_votes": 13594,
+   "undervotes": 317,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JON HAWKINS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8665
+    },
+    {
+     "name": "TRAVIS HYSELL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4929
+    }
+   ],
+   "winner": {
+    "name": "JON HAWKINS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8665
+   },
+   "runner_up": {
+    "name": "TRAVIS HYSELL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4929
+   },
+   "margin": 3736,
+   "margin_share": 0.274827,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3736,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3736,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD56",
+   "display_name": "State House District 56",
+   "contest_type": "State House",
+   "district": "56",
+   "ballots_with_race": 10484,
+   "total_candidate_votes": 10126,
+   "undervotes": 358,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "VAL L PETERSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 5722
+    },
+    {
+     "name": "NATASSJA GROSSMAN",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4404
+    }
+   ],
+   "winner": {
+    "name": "VAL L PETERSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 5722
+   },
+   "runner_up": {
+    "name": "NATASSJA GROSSMAN",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4404
+   },
+   "margin": 1318,
+   "margin_share": 0.13016,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -1318,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -1318,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD57",
+   "display_name": "State House District 57",
+   "contest_type": "State House",
+   "district": "57",
+   "ballots_with_race": 11669,
+   "total_candidate_votes": 7486,
+   "undervotes": 2439,
+   "writein_votes": 1744,
+   "candidates": [
+    {
+     "name": "NELSON ABBOTT",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 7486
+    }
+   ],
+   "winner": {
+    "name": "NELSON ABBOTT",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7486
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD58",
+   "display_name": "State House District 58",
+   "contest_type": "State House",
+   "district": "58",
+   "ballots_with_race": 16324,
+   "total_candidate_votes": 15765,
+   "undervotes": 559,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DAVID SHALLENBERGER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9865
+    },
+    {
+     "name": "KARLI BLACK",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5900
+    }
+   ],
+   "winner": {
+    "name": "DAVID SHALLENBERGER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9865
+   },
+   "runner_up": {
+    "name": "KARLI BLACK",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5900
+   },
+   "margin": 3965,
+   "margin_share": 0.251507,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -3965,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -3965,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD59",
+   "display_name": "State House District 59",
+   "contest_type": "State House",
+   "district": "59",
+   "ballots_with_race": 19351,
+   "total_candidate_votes": 19081,
+   "undervotes": 270,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CELESTE T JOHNSON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 9799
+    },
+    {
+     "name": "LUKE SEARLE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9282
+    }
+   ],
+   "winner": {
+    "name": "CELESTE T JOHNSON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 9799
+   },
+   "runner_up": {
+    "name": "LUKE SEARLE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9282
+   },
+   "margin": 517,
+   "margin_share": 0.027095,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -517,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -517,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD60",
+   "display_name": "State House District 60",
+   "contest_type": "State House",
+   "district": "60",
+   "ballots_with_race": 4573,
+   "total_candidate_votes": 3178,
+   "undervotes": 1395,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "GRANT PACE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 3178
+    }
+   ],
+   "winner": {
+    "name": "GRANT PACE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 3178
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD61",
+   "display_name": "State House District 61",
+   "contest_type": "State House",
+   "district": "61",
+   "ballots_with_race": 10223,
+   "total_candidate_votes": 9993,
+   "undervotes": 230,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "LISA SHEPHERD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4878
+    },
+    {
+     "name": "ALAN JIMENEZ",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4718
+    },
+    {
+     "name": "JENNIFER K DOUD",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 397
+    }
+   ],
+   "winner": {
+    "name": "LISA SHEPHERD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4878
+   },
+   "runner_up": {
+    "name": "ALAN JIMENEZ",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4718
+   },
+   "margin": 160,
+   "margin_share": 0.016011,
+   "third_party_votes": 397,
+   "third_party_share": 0.039728,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": 237,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 237,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD62",
+   "display_name": "State House District 62",
+   "contest_type": "State House",
+   "district": "62",
+   "ballots_with_race": 10039,
+   "total_candidate_votes": 9854,
+   "undervotes": 185,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DAVID CHAPPELL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 5279
+    },
+    {
+     "name": "NORM THURSTON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 4575
+    }
+   ],
+   "winner": {
+    "name": "DAVID CHAPPELL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 5279
+   },
+   "runner_up": {
+    "name": "NORM THURSTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4575
+   },
+   "margin": 704,
+   "margin_share": 0.071443,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -704,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -704,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD63",
+   "display_name": "State House District 63",
+   "contest_type": "State House",
+   "district": "63",
+   "ballots_with_race": 16098,
+   "total_candidate_votes": 15782,
+   "undervotes": 316,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "STEPHEN L WHYTE",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10427
+    },
+    {
+     "name": "MARK YOUNGQUIST",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 3897
+    },
+    {
+     "name": "JULIE SMITH",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 1458
+    }
+   ],
+   "winner": {
+    "name": "STEPHEN L WHYTE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10427
+   },
+   "runner_up": {
+    "name": "MARK YOUNGQUIST",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 3897
+   },
+   "margin": 6530,
+   "margin_share": 0.413763,
+   "third_party_votes": 1458,
+   "third_party_share": 0.092384,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -5072,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5072,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD64",
+   "display_name": "State House District 64",
+   "contest_type": "State House",
+   "district": "64",
+   "ballots_with_race": 13915,
+   "total_candidate_votes": 13282,
+   "undervotes": 633,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JACKIE LARSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8402
+    },
+    {
+     "name": "ALAN WESSMAN",
+     "party": "Unaffiliated",
+     "bucket": "Other",
+     "votes": 4880
+    }
+   ],
+   "winner": {
+    "name": "JACKIE LARSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8402
+   },
+   "runner_up": {
+    "name": "ALAN WESSMAN",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 4880
+   },
+   "margin": 3522,
+   "margin_share": 0.265171,
+   "third_party_votes": 4880,
+   "third_party_share": 0.367415,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": 1358,
+   "spoiler_possible": true,
+   "third_party_plus_writein_minus_margin": 1358,
+   "spoiler_possible_incl_writeins": true
+  },
+  {
+   "contest_id": "HD65",
+   "display_name": "State House District 65",
+   "contest_type": "State House",
+   "district": "65",
+   "ballots_with_race": 13268,
+   "total_candidate_votes": 10768,
+   "undervotes": 2500,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "DOUG WELTON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 10768
+    }
+   ],
+   "winner": {
+    "name": "DOUG WELTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 10768
+   },
+   "runner_up": null,
+   "margin": null,
+   "margin_share": null,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": null,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": null,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD66",
+   "display_name": "State House District 66",
+   "contest_type": "State House",
+   "district": "66",
+   "ballots_with_race": 12978,
+   "total_candidate_votes": 12700,
+   "undervotes": 278,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "TROY SHELLEY",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9102
+    },
+    {
+     "name": "BREANNE MASHEK",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 2331
+    },
+    {
+     "name": "RUSS HATCH",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 1267
+    }
+   ],
+   "winner": {
+    "name": "TROY SHELLEY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9102
+   },
+   "runner_up": {
+    "name": "BREANNE MASHEK",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 2331
+   },
+   "margin": 6771,
+   "margin_share": 0.53315,
+   "third_party_votes": 1267,
+   "third_party_share": 0.099764,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -5504,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5504,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD67",
+   "display_name": "State House District 67",
+   "contest_type": "State House",
+   "district": "67",
+   "ballots_with_race": 12650,
+   "total_candidate_votes": 12374,
+   "undervotes": 276,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JR BIRD",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9297
+    },
+    {
+     "name": "CARL INGWELL",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 3077
+    }
+   ],
+   "winner": {
+    "name": "JR BIRD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9297
+   },
+   "runner_up": {
+    "name": "CARL INGWELL",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 3077
+   },
+   "margin": 6220,
+   "margin_share": 0.502667,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -6220,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -6220,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD68",
+   "display_name": "State House District 68",
+   "contest_type": "State House",
+   "district": "68",
+   "ballots_with_race": 11666,
+   "total_candidate_votes": 11156,
+   "undervotes": 510,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "SCOTT H CHEW",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9413
+    },
+    {
+     "name": "SONYA RAY",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 1743
+    }
+   ],
+   "winner": {
+    "name": "SCOTT H CHEW",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9413
+   },
+   "runner_up": {
+    "name": "SONYA RAY",
+    "party": "Constitution",
+    "bucket": "Other",
+    "votes": 1743
+   },
+   "margin": 7670,
+   "margin_share": 0.687522,
+   "third_party_votes": 1743,
+   "third_party_share": 0.156239,
+   "third_party_best_finish": "runner-up",
+   "third_party_minus_margin": -5927,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5927,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD69",
+   "display_name": "State House District 69",
+   "contest_type": "State House",
+   "district": "69",
+   "ballots_with_race": 17246,
+   "total_candidate_votes": 16902,
+   "undervotes": 344,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "LOGAN J MONSON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9789
+    },
+    {
+     "name": "TRACIE YELLOWMAN TSO",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 7113
+    }
+   ],
+   "winner": {
+    "name": "LOGAN J MONSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9789
+   },
+   "runner_up": {
+    "name": "TRACIE YELLOWMAN TSO",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7113
+   },
+   "margin": 2676,
+   "margin_share": 0.158324,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -2676,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -2676,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD70",
+   "display_name": "State House District 70",
+   "contest_type": "State House",
+   "district": "70",
+   "ballots_with_race": 13979,
+   "total_candidate_votes": 13694,
+   "undervotes": 285,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "CARL R ALBRECHT",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 11331
+    },
+    {
+     "name": "STACEY D PENDERGRAFT",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 2073
+    },
+    {
+     "name": "ZENO B PARRY",
+     "party": "Forward",
+     "bucket": "Other",
+     "votes": 290
+    }
+   ],
+   "winner": {
+    "name": "CARL R ALBRECHT",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 11331
+   },
+   "runner_up": {
+    "name": "STACEY D PENDERGRAFT",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 2073
+   },
+   "margin": 9258,
+   "margin_share": 0.676063,
+   "third_party_votes": 290,
+   "third_party_share": 0.021177,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -8968,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -8968,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD71",
+   "display_name": "State House District 71",
+   "contest_type": "State House",
+   "district": "71",
+   "ballots_with_race": 13344,
+   "total_candidate_votes": 13022,
+   "undervotes": 322,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "REX P SHIPP",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 8935
+    },
+    {
+     "name": "THOMAS LOVEHEART",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4087
+    }
+   ],
+   "winner": {
+    "name": "REX P SHIPP",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8935
+   },
+   "runner_up": {
+    "name": "THOMAS LOVEHEART",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4087
+   },
+   "margin": 4848,
+   "margin_share": 0.372293,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -4848,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -4848,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD72",
+   "display_name": "State House District 72",
+   "contest_type": "State House",
+   "district": "72",
+   "ballots_with_race": 18704,
+   "total_candidate_votes": 18470,
+   "undervotes": 234,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "JOSEPH ELISON",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 12678
+    },
+    {
+     "name": "EVA M WELDON",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4772
+    },
+    {
+     "name": "APRIL A PINKSTON",
+     "party": "Constitution",
+     "bucket": "Other",
+     "votes": 1020
+    }
+   ],
+   "winner": {
+    "name": "JOSEPH ELISON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 12678
+   },
+   "runner_up": {
+    "name": "EVA M WELDON",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4772
+   },
+   "margin": 7906,
+   "margin_share": 0.428045,
+   "third_party_votes": 1020,
+   "third_party_share": 0.055225,
+   "third_party_best_finish": "third-or-lower",
+   "third_party_minus_margin": -6886,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -6886,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD73",
+   "display_name": "State House District 73",
+   "contest_type": "State House",
+   "district": "73",
+   "ballots_with_race": 14485,
+   "total_candidate_votes": 14205,
+   "undervotes": 280,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "COLIN W JACK",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9888
+    },
+    {
+     "name": "GLENN D WEBB",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4317
+    }
+   ],
+   "winner": {
+    "name": "COLIN W JACK",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9888
+   },
+   "runner_up": {
+    "name": "GLENN D WEBB",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4317
+   },
+   "margin": 5571,
+   "margin_share": 0.392186,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -5571,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5571,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD74",
+   "display_name": "State House District 74",
+   "contest_type": "State House",
+   "district": "74",
+   "ballots_with_race": 18418,
+   "total_candidate_votes": 18043,
+   "undervotes": 375,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "R NEIL WALTER",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 12000
+    },
+    {
+     "name": "JEFFREY N LIPE",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 6043
+    }
+   ],
+   "winner": {
+    "name": "R NEIL WALTER",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 12000
+   },
+   "runner_up": {
+    "name": "JEFFREY N LIPE",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 6043
+   },
+   "margin": 5957,
+   "margin_share": 0.330156,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -5957,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5957,
+   "spoiler_possible_incl_writeins": false
+  },
+  {
+   "contest_id": "HD75",
+   "display_name": "State House District 75",
+   "contest_type": "State House",
+   "district": "75",
+   "ballots_with_race": 13646,
+   "total_candidate_votes": 13366,
+   "undervotes": 280,
+   "writein_votes": 0,
+   "candidates": [
+    {
+     "name": "WALT BROOKS",
+     "party": "Republican",
+     "bucket": "R",
+     "votes": 9307
+    },
+    {
+     "name": "REBECCA WINSOR",
+     "party": "Democratic",
+     "bucket": "D",
+     "votes": 4059
+    }
+   ],
+   "winner": {
+    "name": "WALT BROOKS",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 9307
+   },
+   "runner_up": {
+    "name": "REBECCA WINSOR",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4059
+   },
+   "margin": 5248,
+   "margin_share": 0.392638,
+   "third_party_votes": 0,
+   "third_party_share": 0.0,
+   "third_party_best_finish": "none",
+   "third_party_minus_margin": -5248,
+   "spoiler_possible": false,
+   "third_party_plus_writein_minus_margin": -5248,
+   "spoiler_possible_incl_writeins": false
+  }
+ ],
+ "flagged": [
+  "CD2",
+  "SD11",
+  "SD20",
+  "HD3",
+  "HD8",
+  "HD38",
+  "HD53",
+  "HD61",
+  "HD64"
+ ]
+}
