@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "generated_at_utc": "2026-11-23T19:01:52.370142+00:00",
+  "source": "Utah 2026 statewide CVR, relational tables (ballots/votes/contests/candidates), 29/29 counties",
+  "ballots": 1058810,
+  "key_contests": 94,
+  "top_of_ticket": "U.S. House (CD) -- no U.S. Senate race and no statewide executive race on the 2026 Utah ballot",
+  "builder": "build_splitting_stats.py",
+  "definitions": {
+   "straight-R": "at least one R vote in key contests; no D or Other votes",
+   "straight-D": "at least one D vote; no R or Other votes",
+   "mixed": "at least one R vote AND at least one D vote; no Other votes",
+   "third-party-involved": "at least one Other-party vote (takes precedence over mixed)",
+   "no-partisan-vote": "no R/D/Other votes in key contests (undervotes / write-ins / not on ballot only)",
+   "note": "Classification uses R/D/Other votes only. Undervotes and write-ins carry no partisan signal. A ballot with a single partisan vote is classified from that vote alone; see the two_plus_partisan_votes variant for ballots with 2+ partisan votes."
+  }
+ },
+ "statewide": {
+  "all_ballots": {
+   "counts": {
+    "straight-R": 450009,
+    "straight-D": 395743,
+    "mixed": 71518,
+    "third-party-involved": 136630,
+    "no-partisan-vote": 4910
+   },
+   "total": 1058810,
+   "shares": {
+    "straight-R": 0.425014,
+    "straight-D": 0.373762,
+    "mixed": 0.067546,
+    "third-party-involved": 0.129041,
+    "no-partisan-vote": 0.004637
+   }
+  },
+  "two_plus_partisan_votes": {
+   "counts": {
+    "straight-R": 436151,
+    "straight-D": 381959,
+    "mixed": 71518,
+    "third-party-involved": 133428,
+    "no-partisan-vote": 0
+   },
+   "total": 1023056,
+   "shares": {
+    "straight-R": 0.426322,
+    "straight-D": 0.373351,
+    "mixed": 0.069906,
+    "third-party-involved": 0.130421,
+    "no-partisan-vote": 0.0
+   }
+  },
+  "by_n_partisan_votes": {
+   "0": 4910,
+   "1": 30844,
+   "2": 506534,
+   "3": 516522
+  },
+  "by_n_contests_on_ballot": {
+   "1": 799,
+   "2": 499009,
+   "3": 559002
+  }
+ },
+ "by_county": {
+  "Beaver": {
+   "counts": {
+    "straight-R": 1616,
+    "straight-D": 231,
+    "mixed": 94,
+    "third-party-involved": 149,
+    "no-partisan-vote": 28
+   },
+   "total": 2118,
+   "shares": {
+    "straight-R": 0.762984,
+    "straight-D": 0.109065,
+    "mixed": 0.044381,
+    "third-party-involved": 0.070349,
+    "no-partisan-vote": 0.01322
+   }
+  },
+  "Box Elder": {
+   "counts": {
+    "straight-R": 11340,
+    "straight-D": 2278,
+    "mixed": 1496,
+    "third-party-involved": 4990,
+    "no-partisan-vote": 143
+   },
+   "total": 20247,
+   "shares": {
+    "straight-R": 0.560083,
+    "straight-D": 0.11251,
+    "mixed": 0.073887,
+    "third-party-involved": 0.246456,
+    "no-partisan-vote": 0.007063
+   }
+  },
+  "Cache": {
+   "counts": {
+    "straight-R": 21061,
+    "straight-D": 9657,
+    "mixed": 2254,
+    "third-party-involved": 9402,
+    "no-partisan-vote": 175
+   },
+   "total": 42549,
+   "shares": {
+    "straight-R": 0.494982,
+    "straight-D": 0.226962,
+    "mixed": 0.052974,
+    "third-party-involved": 0.220969,
+    "no-partisan-vote": 0.004113
+   }
+  },
+  "Carbon": {
+   "counts": {
+    "straight-R": 3996,
+    "straight-D": 1971,
+    "mixed": 314,
+    "third-party-involved": 445,
+    "no-partisan-vote": 81
+   },
+   "total": 6807,
+   "shares": {
+    "straight-R": 0.587043,
+    "straight-D": 0.289555,
+    "mixed": 0.046129,
+    "third-party-involved": 0.065374,
+    "no-partisan-vote": 0.0119
+   }
+  },
+  "Daggett": {
+   "counts": {
+    "straight-R": 272,
+    "straight-D": 7,
+    "mixed": 6,
+    "third-party-involved": 96,
+    "no-partisan-vote": 3
+   },
+   "total": 384,
+   "shares": {
+    "straight-R": 0.708333,
+    "straight-D": 0.018229,
+    "mixed": 0.015625,
+    "third-party-involved": 0.25,
+    "no-partisan-vote": 0.007812
+   }
+  },
+  "Davis": {
+   "counts": {
+    "straight-R": 53423,
+    "straight-D": 40009,
+    "mixed": 11892,
+    "third-party-involved": 12031,
+    "no-partisan-vote": 851
+   },
+   "total": 118206,
+   "shares": {
+    "straight-R": 0.451948,
+    "straight-D": 0.338468,
+    "mixed": 0.100604,
+    "third-party-involved": 0.10178,
+    "no-partisan-vote": 0.007199
+   }
+  },
+  "Duchesne": {
+   "counts": {
+    "straight-R": 3586,
+    "straight-D": 62,
+    "mixed": 220,
+    "third-party-involved": 1458,
+    "no-partisan-vote": 11
+   },
+   "total": 5337,
+   "shares": {
+    "straight-R": 0.671913,
+    "straight-D": 0.011617,
+    "mixed": 0.041222,
+    "third-party-involved": 0.273187,
+    "no-partisan-vote": 0.002061
+   }
+  },
+  "Emery": {
+   "counts": {
+    "straight-R": 2223,
+    "straight-D": 390,
+    "mixed": 121,
+    "third-party-involved": 192,
+    "no-partisan-vote": 37
+   },
+   "total": 2963,
+   "shares": {
+    "straight-R": 0.750253,
+    "straight-D": 0.131623,
+    "mixed": 0.040837,
+    "third-party-involved": 0.064799,
+    "no-partisan-vote": 0.012487
+   }
+  },
+  "Garfield": {
+   "counts": {
+    "straight-R": 1443,
+    "straight-D": 451,
+    "mixed": 59,
+    "third-party-involved": 87,
+    "no-partisan-vote": 19
+   },
+   "total": 2059,
+   "shares": {
+    "straight-R": 0.700826,
+    "straight-D": 0.219038,
+    "mixed": 0.028655,
+    "third-party-involved": 0.042254,
+    "no-partisan-vote": 0.009228
+   }
+  },
+  "Grand": {
+   "counts": {
+    "straight-R": 1560,
+    "straight-D": 2619,
+    "mixed": 138,
+    "third-party-involved": 261,
+    "no-partisan-vote": 50
+   },
+   "total": 4628,
+   "shares": {
+    "straight-R": 0.337079,
+    "straight-D": 0.565903,
+    "mixed": 0.029818,
+    "third-party-involved": 0.056396,
+    "no-partisan-vote": 0.010804
+   }
+  },
+  "Iron": {
+   "counts": {
+    "straight-R": 11132,
+    "straight-D": 3773,
+    "mixed": 1357,
+    "third-party-involved": 1650,
+    "no-partisan-vote": 70
+   },
+   "total": 17982,
+   "shares": {
+    "straight-R": 0.619064,
+    "straight-D": 0.209821,
+    "mixed": 0.075464,
+    "third-party-involved": 0.091758,
+    "no-partisan-vote": 0.003893
+   }
+  },
+  "Juab": {
+   "counts": {
+    "straight-R": 2683,
+    "straight-D": 489,
+    "mixed": 77,
+    "third-party-involved": 505,
+    "no-partisan-vote": 56
+   },
+   "total": 3810,
+   "shares": {
+    "straight-R": 0.704199,
+    "straight-D": 0.128346,
+    "mixed": 0.02021,
+    "third-party-involved": 0.132546,
+    "no-partisan-vote": 0.014698
+   }
+  },
+  "Kane": {
+   "counts": {
+    "straight-R": 2074,
+    "straight-D": 1004,
+    "mixed": 92,
+    "third-party-involved": 212,
+    "no-partisan-vote": 13
+   },
+   "total": 3395,
+   "shares": {
+    "straight-R": 0.610898,
+    "straight-D": 0.295729,
+    "mixed": 0.027099,
+    "third-party-involved": 0.062445,
+    "no-partisan-vote": 0.003829
+   }
+  },
+  "Millard": {
+   "counts": {
+    "straight-R": 3043,
+    "straight-D": 476,
+    "mixed": 149,
+    "third-party-involved": 427,
+    "no-partisan-vote": 54
+   },
+   "total": 4149,
+   "shares": {
+    "straight-R": 0.73343,
+    "straight-D": 0.114726,
+    "mixed": 0.035912,
+    "third-party-involved": 0.102916,
+    "no-partisan-vote": 0.013015
+   }
+  },
+  "Morgan": {
+   "counts": {
+    "straight-R": 2963,
+    "straight-D": 953,
+    "mixed": 381,
+    "third-party-involved": 374,
+    "no-partisan-vote": 27
+   },
+   "total": 4698,
+   "shares": {
+    "straight-R": 0.630694,
+    "straight-D": 0.202852,
+    "mixed": 0.081098,
+    "third-party-involved": 0.079608,
+    "no-partisan-vote": 0.005747
+   }
+  },
+  "Piute": {
+   "counts": {
+    "straight-R": 622,
+    "straight-D": 55,
+    "mixed": 9,
+    "third-party-involved": 39,
+    "no-partisan-vote": 12
+   },
+   "total": 737,
+   "shares": {
+    "straight-R": 0.843962,
+    "straight-D": 0.074627,
+    "mixed": 0.012212,
+    "third-party-involved": 0.052917,
+    "no-partisan-vote": 0.016282
+   }
+  },
+  "Rich": {
+   "counts": {
+    "straight-R": 879,
+    "straight-D": 169,
+    "mixed": 137,
+    "third-party-involved": 63,
+    "no-partisan-vote": 21
+   },
+   "total": 1269,
+   "shares": {
+    "straight-R": 0.692671,
+    "straight-D": 0.133176,
+    "mixed": 0.107959,
+    "third-party-involved": 0.049645,
+    "no-partisan-vote": 0.016548
+   }
+  },
+  "Salt Lake": {
+   "counts": {
+    "straight-R": 112555,
+    "straight-D": 217651,
+    "mixed": 27296,
+    "third-party-involved": 32001,
+    "no-partisan-vote": 1329
+   },
+   "total": 390832,
+   "shares": {
+    "straight-R": 0.287988,
+    "straight-D": 0.556891,
+    "mixed": 0.069841,
+    "third-party-involved": 0.081879,
+    "no-partisan-vote": 0.0034
+   }
+  },
+  "San Juan": {
+   "counts": {
+    "straight-R": 2226,
+    "straight-D": 2131,
+    "mixed": 361,
+    "third-party-involved": 436,
+    "no-partisan-vote": 28
+   },
+   "total": 5182,
+   "shares": {
+    "straight-R": 0.429564,
+    "straight-D": 0.411231,
+    "mixed": 0.069664,
+    "third-party-involved": 0.084137,
+    "no-partisan-vote": 0.005403
+   }
+  },
+  "Sanpete": {
+   "counts": {
+    "straight-R": 5839,
+    "straight-D": 1431,
+    "mixed": 252,
+    "third-party-involved": 1172,
+    "no-partisan-vote": 59
+   },
+   "total": 8753,
+   "shares": {
+    "straight-R": 0.667086,
+    "straight-D": 0.163487,
+    "mixed": 0.02879,
+    "third-party-involved": 0.133897,
+    "no-partisan-vote": 0.006741
+   }
+  },
+  "Sevier": {
+   "counts": {
+    "straight-R": 5122,
+    "straight-D": 760,
+    "mixed": 190,
+    "third-party-involved": 387,
+    "no-partisan-vote": 31
+   },
+   "total": 6490,
+   "shares": {
+    "straight-R": 0.789214,
+    "straight-D": 0.117103,
+    "mixed": 0.029276,
+    "third-party-involved": 0.05963,
+    "no-partisan-vote": 0.004777
+   }
+  },
+  "Summit": {
+   "counts": {
+    "straight-R": 5681,
+    "straight-D": 5461,
+    "mixed": 1646,
+    "third-party-involved": 7327,
+    "no-partisan-vote": 108
+   },
+   "total": 20223,
+   "shares": {
+    "straight-R": 0.280918,
+    "straight-D": 0.270039,
+    "mixed": 0.081392,
+    "third-party-involved": 0.36231,
+    "no-partisan-vote": 0.00534
+   }
+  },
+  "Tooele": {
+   "counts": {
+    "straight-R": 10409,
+    "straight-D": 2539,
+    "mixed": 694,
+    "third-party-involved": 7689,
+    "no-partisan-vote": 158
+   },
+   "total": 21489,
+   "shares": {
+    "straight-R": 0.484387,
+    "straight-D": 0.118153,
+    "mixed": 0.032296,
+    "third-party-involved": 0.357811,
+    "no-partisan-vote": 0.007353
+   }
+  },
+  "Uintah": {
+   "counts": {
+    "straight-R": 6310,
+    "straight-D": 108,
+    "mixed": 338,
+    "third-party-involved": 2783,
+    "no-partisan-vote": 67
+   },
+   "total": 9606,
+   "shares": {
+    "straight-R": 0.656881,
+    "straight-D": 0.011243,
+    "mixed": 0.035186,
+    "third-party-involved": 0.289715,
+    "no-partisan-vote": 0.006975
+   }
+  },
+  "Utah": {
+   "counts": {
+    "straight-R": 98259,
+    "straight-D": 49824,
+    "mixed": 13906,
+    "third-party-involved": 31820,
+    "no-partisan-vote": 928
+   },
+   "total": 194737,
+   "shares": {
+    "straight-R": 0.504573,
+    "straight-D": 0.255853,
+    "mixed": 0.071409,
+    "third-party-involved": 0.1634,
+    "no-partisan-vote": 0.004765
+   }
+  },
+  "Wasatch": {
+   "counts": {
+    "straight-R": 6365,
+    "straight-D": 950,
+    "mixed": 1378,
+    "third-party-involved": 5661,
+    "no-partisan-vote": 39
+   },
+   "total": 14393,
+   "shares": {
+    "straight-R": 0.442229,
+    "straight-D": 0.066004,
+    "mixed": 0.095741,
+    "third-party-involved": 0.393316,
+    "no-partisan-vote": 0.00271
+   }
+  },
+  "Washington": {
+   "counts": {
+    "straight-R": 38998,
+    "straight-D": 17522,
+    "mixed": 2539,
+    "third-party-involved": 5973,
+    "no-partisan-vote": 221
+   },
+   "total": 65253,
+   "shares": {
+    "straight-R": 0.597643,
+    "straight-D": 0.268524,
+    "mixed": 0.03891,
+    "third-party-involved": 0.091536,
+    "no-partisan-vote": 0.003387
+   }
+  },
+  "Wayne": {
+   "counts": {
+    "straight-R": 757,
+    "straight-D": 323,
+    "mixed": 42,
+    "third-party-involved": 82,
+    "no-partisan-vote": 12
+   },
+   "total": 1216,
+   "shares": {
+    "straight-R": 0.622533,
+    "straight-D": 0.265625,
+    "mixed": 0.034539,
+    "third-party-involved": 0.067434,
+    "no-partisan-vote": 0.009868
+   }
+  },
+  "Weber": {
+   "counts": {
+    "straight-R": 33572,
+    "straight-D": 32449,
+    "mixed": 4080,
+    "third-party-involved": 8918,
+    "no-partisan-vote": 279
+   },
+   "total": 79298,
+   "shares": {
+    "straight-R": 0.423365,
+    "straight-D": 0.409203,
+    "mixed": 0.051451,
+    "third-party-involved": 0.112462,
+    "no-partisan-vote": 0.003518
+   }
+  }
+ },
+ "by_cd": {
+  "CD1": {
+   "counts": {
+    "straight-R": 56633,
+    "straight-D": 162745,
+    "mixed": 16751,
+    "third-party-involved": 22571,
+    "no-partisan-vote": 767
+   },
+   "total": 259467,
+   "shares": {
+    "straight-R": 0.218267,
+    "straight-D": 0.627228,
+    "mixed": 0.064559,
+    "third-party-involved": 0.08699,
+    "no-partisan-vote": 0.002956
+   }
+  },
+  "CD2": {
+   "counts": {
+    "straight-R": 120187,
+    "straight-D": 84483,
+    "mixed": 19835,
+    "third-party-involved": 35392,
+    "no-partisan-vote": 1468
+   },
+   "total": 261365,
+   "shares": {
+    "straight-R": 0.459844,
+    "straight-D": 0.323238,
+    "mixed": 0.07589,
+    "third-party-involved": 0.135412,
+    "no-partisan-vote": 0.005617
+   }
+  },
+  "CD3": {
+   "counts": {
+    "straight-R": 140239,
+    "straight-D": 63704,
+    "mixed": 18004,
+    "third-party-involved": 40663,
+    "no-partisan-vote": 1392
+   },
+   "total": 264002,
+   "shares": {
+    "straight-R": 0.531204,
+    "straight-D": 0.241301,
+    "mixed": 0.068196,
+    "third-party-involved": 0.154025,
+    "no-partisan-vote": 0.005273
+   }
+  },
+  "CD4": {
+   "counts": {
+    "straight-R": 132950,
+    "straight-D": 84811,
+    "mixed": 16928,
+    "third-party-involved": 38004,
+    "no-partisan-vote": 1283
+   },
+   "total": 273976,
+   "shares": {
+    "straight-R": 0.485261,
+    "straight-D": 0.309556,
+    "mixed": 0.061786,
+    "third-party-involved": 0.138713,
+    "no-partisan-vote": 0.004683
+   }
+  }
+ }
+}
