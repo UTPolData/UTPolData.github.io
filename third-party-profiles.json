@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "generated_at_utc": "2026-11-23T19:01:52.370142+00:00",
+  "source": "Utah 2026 statewide CVR, relational tables (ballots/votes/contests/candidates), 29/29 counties",
+  "ballots": 1058810,
+  "key_contests": 94,
+  "top_of_ticket": "U.S. House (CD) -- no U.S. Senate race and no statewide executive race on the 2026 Utah ballot",
+  "builder": "build_splitting_stats.py",
+  "definitions": {
+   "classification_basis": "each voter's profile class is computed from their OTHER key-contest votes, EXCLUDING the focal race -- otherwise every third-party voter would trivially be third-party-involved. Same exclusion for every group, so groups are comparable.",
+   "groups": {
+    "third_party_voters": "ballots voting Other in the focal race",
+    "republican_voters": "ballots voting R in the focal race",
+    "democratic_voters": "ballots voting D in the focal race",
+    "all_ballots_with_race": "every ballot with the focal race on it (including undervotes)"
+   }
+  }
+ },
+ "races": {
+  "CD2": {
+   "contest_id": "CD2",
+   "display_name": "U.S. House District 2",
+   "contest_type": "US House",
+   "district": "2",
+   "margin": 18339,
+   "third_party_votes": 19795,
+   "third_party_minus_margin": 1456,
+   "winner": {
+    "name": "BLAKE D MOORE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 128179
+   },
+   "runner_up": {
+    "name": "PETER CROSBY",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 109840
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 10049,
+      "straight-D": 3665,
+      "mixed": 1102,
+      "third-party-involved": 4193,
+      "no-partisan-vote": 786
+     },
+     "total": 19795,
+     "shares": {
+      "straight-R": 0.507653,
+      "straight-D": 0.185148,
+      "mixed": 0.055671,
+      "third-party-involved": 0.211821,
+      "no-partisan-vote": 0.039707
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 117199,
+      "straight-D": 2970,
+      "mixed": 2957,
+      "third-party-involved": 3542,
+      "no-partisan-vote": 1511
+     },
+     "total": 128179,
+     "shares": {
+      "straight-R": 0.914339,
+      "straight-D": 0.023171,
+      "mixed": 0.023069,
+      "third-party-involved": 0.027633,
+      "no-partisan-vote": 0.011788
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 9638,
+      "straight-D": 79360,
+      "mixed": 4198,
+      "third-party-involved": 11872,
+      "no-partisan-vote": 4772
+     },
+     "total": 109840,
+     "shares": {
+      "straight-R": 0.087746,
+      "straight-D": 0.722505,
+      "mixed": 0.038219,
+      "third-party-involved": 0.108084,
+      "no-partisan-vote": 0.043445
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 138363,
+      "straight-D": 86346,
+      "mixed": 8329,
+      "third-party-involved": 19790,
+      "no-partisan-vote": 8537
+     },
+     "total": 261365,
+     "shares": {
+      "straight-R": 0.529386,
+      "straight-D": 0.330366,
+      "mixed": 0.031867,
+      "third-party-involved": 0.075718,
+      "no-partisan-vote": 0.032663
+     }
+    }
+   }
+  },
+  "SD11": {
+   "contest_id": "SD11",
+   "display_name": "State Senate District 11",
+   "contest_type": "State Senate",
+   "district": "11",
+   "margin": 122,
+   "third_party_votes": 16236,
+   "third_party_minus_margin": 16114,
+   "winner": {
+    "name": "BROOKS BENSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 16358
+   },
+   "runner_up": {
+    "name": "EMILY BUSS",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 16236
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 1448,
+      "straight-D": 11347,
+      "mixed": 801,
+      "third-party-involved": 2604,
+      "no-partisan-vote": 36
+     },
+     "total": 16236,
+     "shares": {
+      "straight-R": 0.089185,
+      "straight-D": 0.698879,
+      "mixed": 0.049335,
+      "third-party-involved": 0.160384,
+      "no-partisan-vote": 0.002217
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 14276,
+      "straight-D": 601,
+      "mixed": 551,
+      "third-party-involved": 913,
+      "no-partisan-vote": 17
+     },
+     "total": 16358,
+     "shares": {
+      "straight-R": 0.872723,
+      "straight-D": 0.03674,
+      "mixed": 0.033684,
+      "third-party-involved": 0.055814,
+      "no-partisan-vote": 0.001039
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 0,
+      "straight-D": 0,
+      "mixed": 0,
+      "third-party-involved": 0,
+      "no-partisan-vote": 0
+     },
+     "total": 0,
+     "shares": {
+      "straight-R": 0.0,
+      "straight-D": 0.0,
+      "mixed": 0.0,
+      "third-party-involved": 0.0,
+      "no-partisan-vote": 0.0
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 15941,
+      "straight-D": 13009,
+      "mixed": 1387,
+      "third-party-involved": 3602,
+      "no-partisan-vote": 197
+     },
+     "total": 34136,
+     "shares": {
+      "straight-R": 0.466985,
+      "straight-D": 0.381093,
+      "mixed": 0.040632,
+      "third-party-involved": 0.105519,
+      "no-partisan-vote": 0.005771
+     }
+    }
+   }
+  },
+  "SD20": {
+   "contest_id": "SD20",
+   "display_name": "State Senate District 20",
+   "contest_type": "State Senate",
+   "district": "20",
+   "margin": 8055,
+   "third_party_votes": 14876,
+   "third_party_minus_margin": 6821,
+   "winner": {
+    "name": "RONALD M WINTERTON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 22931
+   },
+   "runner_up": {
+    "name": "ANNETTE MCRAE",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 14876
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 1351,
+      "straight-D": 10267,
+      "mixed": 1267,
+      "third-party-involved": 1980,
+      "no-partisan-vote": 11
+     },
+     "total": 14876,
+     "shares": {
+      "straight-R": 0.090817,
+      "straight-D": 0.690172,
+      "mixed": 0.085171,
+      "third-party-involved": 0.1331,
+      "no-partisan-vote": 0.000739
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 18381,
+      "straight-D": 1104,
+      "mixed": 1646,
+      "third-party-involved": 1783,
+      "no-partisan-vote": 17
+     },
+     "total": 22931,
+     "shares": {
+      "straight-R": 0.801579,
+      "straight-D": 0.048144,
+      "mixed": 0.071781,
+      "third-party-involved": 0.077755,
+      "no-partisan-vote": 0.000741
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 0,
+      "straight-D": 0,
+      "mixed": 0,
+      "third-party-involved": 0,
+      "no-partisan-vote": 0
+     },
+     "total": 0,
+     "shares": {
+      "straight-R": 0.0,
+      "straight-D": 0.0,
+      "mixed": 0.0,
+      "third-party-involved": 0.0,
+      "no-partisan-vote": 0.0
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 20148,
+      "straight-D": 12895,
+      "mixed": 3034,
+      "third-party-involved": 3911,
+      "no-partisan-vote": 205
+     },
+     "total": 40193,
+     "shares": {
+      "straight-R": 0.501281,
+      "straight-D": 0.320827,
+      "mixed": 0.075486,
+      "third-party-involved": 0.097306,
+      "no-partisan-vote": 0.0051
+     }
+    }
+   }
+  },
+  "HD3": {
+   "contest_id": "HD3",
+   "display_name": "State House District 3",
+   "contest_type": "State House",
+   "district": "3",
+   "margin": 2023,
+   "third_party_votes": 6595,
+   "third_party_minus_margin": 4572,
+   "winner": {
+    "name": "PATRICK BELMONT",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 6595
+   },
+   "runner_up": {
+    "name": "JASON E THOMPSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4572
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 455,
+      "straight-D": 5644,
+      "mixed": 0,
+      "third-party-involved": 434,
+      "no-partisan-vote": 62
+     },
+     "total": 6595,
+     "shares": {
+      "straight-R": 0.068992,
+      "straight-D": 0.8558,
+      "mixed": 0.0,
+      "third-party-involved": 0.065807,
+      "no-partisan-vote": 0.009401
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 3929,
+      "straight-D": 321,
+      "mixed": 0,
+      "third-party-involved": 254,
+      "no-partisan-vote": 68
+     },
+     "total": 4572,
+     "shares": {
+      "straight-R": 0.859361,
+      "straight-D": 0.07021,
+      "mixed": 0.0,
+      "third-party-involved": 0.055556,
+      "no-partisan-vote": 0.014873
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 0,
+      "straight-D": 0,
+      "mixed": 0,
+      "third-party-involved": 0,
+      "no-partisan-vote": 0
+     },
+     "total": 0,
+     "shares": {
+      "straight-R": 0.0,
+      "straight-D": 0.0,
+      "mixed": 0.0,
+      "third-party-involved": 0.0,
+      "no-partisan-vote": 0.0
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 4440,
+      "straight-D": 6126,
+      "mixed": 0,
+      "third-party-involved": 699,
+      "no-partisan-vote": 169
+     },
+     "total": 11434,
+     "shares": {
+      "straight-R": 0.388316,
+      "straight-D": 0.535771,
+      "mixed": 0.0,
+      "third-party-involved": 0.061133,
+      "no-partisan-vote": 0.01478
+     }
+    }
+   }
+  },
+  "HD8": {
+   "contest_id": "HD8",
+   "display_name": "State House District 8",
+   "contest_type": "State House",
+   "district": "8",
+   "margin": 593,
+   "third_party_votes": 628,
+   "third_party_minus_margin": 35,
+   "winner": {
+    "name": "KIM JAMES",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 7430
+   },
+   "runner_up": {
+    "name": "JASON B KYLE",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 6837
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 88,
+      "straight-D": 334,
+      "mixed": 1,
+      "third-party-involved": 199,
+      "no-partisan-vote": 6
+     },
+     "total": 628,
+     "shares": {
+      "straight-R": 0.140127,
+      "straight-D": 0.531847,
+      "mixed": 0.001592,
+      "third-party-involved": 0.316879,
+      "no-partisan-vote": 0.009554
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 5950,
+      "straight-D": 314,
+      "mixed": 62,
+      "third-party-involved": 466,
+      "no-partisan-vote": 45
+     },
+     "total": 6837,
+     "shares": {
+      "straight-R": 0.870265,
+      "straight-D": 0.045927,
+      "mixed": 0.009068,
+      "third-party-involved": 0.068159,
+      "no-partisan-vote": 0.006582
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 164,
+      "straight-D": 7018,
+      "mixed": 50,
+      "third-party-involved": 185,
+      "no-partisan-vote": 13
+     },
+     "total": 7430,
+     "shares": {
+      "straight-R": 0.022073,
+      "straight-D": 0.944549,
+      "mixed": 0.006729,
+      "third-party-involved": 0.024899,
+      "no-partisan-vote": 0.00175
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 6242,
+      "straight-D": 7725,
+      "mixed": 113,
+      "third-party-involved": 864,
+      "no-partisan-vote": 101
+     },
+     "total": 15045,
+     "shares": {
+      "straight-R": 0.414889,
+      "straight-D": 0.51346,
+      "mixed": 0.007511,
+      "third-party-involved": 0.057428,
+      "no-partisan-vote": 0.006713
+     }
+    }
+   }
+  },
+  "HD38": {
+   "contest_id": "HD38",
+   "display_name": "State House District 38",
+   "contest_type": "State House",
+   "district": "38",
+   "margin": 1357,
+   "third_party_votes": 6272,
+   "third_party_minus_margin": 4915,
+   "winner": {
+    "name": "SERGIO SOTELO",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 6272
+   },
+   "runner_up": {
+    "name": "CHRIS MCCONNEHEY",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4915
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 351,
+      "straight-D": 5394,
+      "mixed": 0,
+      "third-party-involved": 496,
+      "no-partisan-vote": 31
+     },
+     "total": 6272,
+     "shares": {
+      "straight-R": 0.055963,
+      "straight-D": 0.860013,
+      "mixed": 0.0,
+      "third-party-involved": 0.079082,
+      "no-partisan-vote": 0.004943
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 4123,
+      "straight-D": 648,
+      "mixed": 0,
+      "third-party-involved": 102,
+      "no-partisan-vote": 42
+     },
+     "total": 4915,
+     "shares": {
+      "straight-R": 0.838861,
+      "straight-D": 0.131841,
+      "mixed": 0.0,
+      "third-party-involved": 0.020753,
+      "no-partisan-vote": 0.008545
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 0,
+      "straight-D": 0,
+      "mixed": 0,
+      "third-party-involved": 0,
+      "no-partisan-vote": 0
+     },
+     "total": 0,
+     "shares": {
+      "straight-R": 0.0,
+      "straight-D": 0.0,
+      "mixed": 0.0,
+      "third-party-involved": 0.0,
+      "no-partisan-vote": 0.0
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 4541,
+      "straight-D": 6557,
+      "mixed": 0,
+      "third-party-involved": 610,
+      "no-partisan-vote": 113
+     },
+     "total": 11821,
+     "shares": {
+      "straight-R": 0.384147,
+      "straight-D": 0.554691,
+      "mixed": 0.0,
+      "third-party-involved": 0.051603,
+      "no-partisan-vote": 0.009559
+     }
+    }
+   }
+  },
+  "HD53": {
+   "contest_id": "HD53",
+   "display_name": "State House District 53",
+   "contest_type": "State House",
+   "district": "53",
+   "margin": 3283,
+   "third_party_votes": 4279,
+   "third_party_minus_margin": 996,
+   "winner": {
+    "name": "KAY J CHRISTOFFERSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 7562
+   },
+   "runner_up": {
+    "name": "JOHN BOYD",
+    "party": "Forward",
+    "bucket": "Other",
+    "votes": 4279
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 690,
+      "straight-D": 1344,
+      "mixed": 74,
+      "third-party-involved": 2139,
+      "no-partisan-vote": 32
+     },
+     "total": 4279,
+     "shares": {
+      "straight-R": 0.161253,
+      "straight-D": 0.314092,
+      "mixed": 0.017294,
+      "third-party-involved": 0.499883,
+      "no-partisan-vote": 0.007478
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 6634,
+      "straight-D": 134,
+      "mixed": 131,
+      "third-party-involved": 649,
+      "no-partisan-vote": 14
+     },
+     "total": 7562,
+     "shares": {
+      "straight-R": 0.877281,
+      "straight-D": 0.01772,
+      "mixed": 0.017323,
+      "third-party-involved": 0.085824,
+      "no-partisan-vote": 0.001851
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 30,
+      "straight-D": 2046,
+      "mixed": 36,
+      "third-party-involved": 167,
+      "no-partisan-vote": 5
+     },
+     "total": 2284,
+     "shares": {
+      "straight-R": 0.013135,
+      "straight-D": 0.895797,
+      "mixed": 0.015762,
+      "third-party-involved": 0.073117,
+      "no-partisan-vote": 0.002189
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 7411,
+      "straight-D": 3552,
+      "mixed": 243,
+      "third-party-involved": 2981,
+      "no-partisan-vote": 95
+     },
+     "total": 14282,
+     "shares": {
+      "straight-R": 0.518905,
+      "straight-D": 0.248705,
+      "mixed": 0.017014,
+      "third-party-involved": 0.208724,
+      "no-partisan-vote": 0.006652
+     }
+    }
+   }
+  },
+  "HD61": {
+   "contest_id": "HD61",
+   "display_name": "State House District 61",
+   "contest_type": "State House",
+   "district": "61",
+   "margin": 160,
+   "third_party_votes": 397,
+   "third_party_minus_margin": 237,
+   "winner": {
+    "name": "LISA SHEPHERD",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 4878
+   },
+   "runner_up": {
+    "name": "ALAN JIMENEZ",
+    "party": "Democratic",
+    "bucket": "D",
+    "votes": 4718
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 99,
+      "straight-D": 57,
+      "mixed": 14,
+      "third-party-involved": 224,
+      "no-partisan-vote": 3
+     },
+     "total": 397,
+     "shares": {
+      "straight-R": 0.24937,
+      "straight-D": 0.143577,
+      "mixed": 0.035264,
+      "third-party-involved": 0.564232,
+      "no-partisan-vote": 0.007557
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 4170,
+      "straight-D": 161,
+      "mixed": 195,
+      "third-party-involved": 335,
+      "no-partisan-vote": 17
+     },
+     "total": 4878,
+     "shares": {
+      "straight-R": 0.854859,
+      "straight-D": 0.033005,
+      "mixed": 0.039975,
+      "third-party-involved": 0.068676,
+      "no-partisan-vote": 0.003485
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 164,
+      "straight-D": 4067,
+      "mixed": 224,
+      "third-party-involved": 260,
+      "no-partisan-vote": 3
+     },
+     "total": 4718,
+     "shares": {
+      "straight-R": 0.03476,
+      "straight-D": 0.862018,
+      "mixed": 0.047478,
+      "third-party-involved": 0.055108,
+      "no-partisan-vote": 0.000636
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 4545,
+      "straight-D": 4350,
+      "mixed": 438,
+      "third-party-involved": 835,
+      "no-partisan-vote": 55
+     },
+     "total": 10223,
+     "shares": {
+      "straight-R": 0.444586,
+      "straight-D": 0.425511,
+      "mixed": 0.042845,
+      "third-party-involved": 0.081679,
+      "no-partisan-vote": 0.00538
+     }
+    }
+   }
+  },
+  "HD64": {
+   "contest_id": "HD64",
+   "display_name": "State House District 64",
+   "contest_type": "State House",
+   "district": "64",
+   "margin": 3522,
+   "third_party_votes": 4880,
+   "third_party_minus_margin": 1358,
+   "winner": {
+    "name": "JACKIE LARSON",
+    "party": "Republican",
+    "bucket": "R",
+    "votes": 8402
+   },
+   "runner_up": {
+    "name": "ALAN WESSMAN",
+    "party": "Unaffiliated",
+    "bucket": "Other",
+    "votes": 4880
+   },
+   "groups": {
+    "third_party_voters": {
+     "counts": {
+      "straight-R": 829,
+      "straight-D": 3410,
+      "mixed": 0,
+      "third-party-involved": 618,
+      "no-partisan-vote": 23
+     },
+     "total": 4880,
+     "shares": {
+      "straight-R": 0.169877,
+      "straight-D": 0.69877,
+      "mixed": 0.0,
+      "third-party-involved": 0.126639,
+      "no-partisan-vote": 0.004713
+     }
+    },
+    "republican_voters": {
+     "counts": {
+      "straight-R": 7321,
+      "straight-D": 474,
+      "mixed": 0,
+      "third-party-involved": 572,
+      "no-partisan-vote": 35
+     },
+     "total": 8402,
+     "shares": {
+      "straight-R": 0.87134,
+      "straight-D": 0.056415,
+      "mixed": 0.0,
+      "third-party-involved": 0.068079,
+      "no-partisan-vote": 0.004166
+     }
+    },
+    "democratic_voters": {
+     "counts": {
+      "straight-R": 0,
+      "straight-D": 0,
+      "mixed": 0,
+      "third-party-involved": 0,
+      "no-partisan-vote": 0
+     },
+     "total": 0,
+     "shares": {
+      "straight-R": 0.0,
+      "straight-D": 0.0,
+      "mixed": 0.0,
+      "third-party-involved": 0.0,
+      "no-partisan-vote": 0.0
+     }
+    },
+    "all_ballots_with_race": {
+     "counts": {
+      "straight-R": 8368,
+      "straight-D": 4137,
+      "mixed": 0,
+      "third-party-involved": 1245,
+      "no-partisan-vote": 165
+     },
+     "total": 13915,
+     "shares": {
+      "straight-R": 0.601365,
+      "straight-D": 0.297305,
+      "mixed": 0.0,
+      "third-party-involved": 0.089472,
+      "no-partisan-vote": 0.011858
+     }
+    }
+   }
+  }
+ }
+}
